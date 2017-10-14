@@ -1,0 +1,759 @@
+# Translation of Plugins - Google Analytics by MonsterInsights - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Google Analytics by MonsterInsights - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-18 21:20:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Google Analytics by MonsterInsights - Stable (latest release)\n"
+
+#: googleanalytics.php:57
+msgid "MonsterInsights 6.0 is Coming Soon — %sCheck out the sneak peak%s — It’s going to be awesome"
+msgstr "MonsterInsights 6.0近日公開 — %s sneak peak をチェック%s — 素晴らしいことになるだろう"
+
+#: admin/pages/dashboard.php:20
+msgid "System Info"
+msgstr "システム情報"
+
+#. Author URI of the plugin/theme
+msgid "https://www.monsterinsights.com/"
+msgstr "https://www.monsterinsights.com/"
+
+#. Author of the plugin/theme
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.monsterinsights.com/pricing/#utm_source=wordpress&utm_medium=plugin&utm_campaign=wpgaplugin&utm_content=v504"
+msgstr "https://www.monsterinsights.com/pricing/#utm_source=wordpress&utm_medium=plugin&utm_campaign=wpgaplugin&utm_content=v504"
+
+#: admin/views/content-footer.php:15
+msgid "Upgrade to Google Analytics By MonsterInsights Pro »"
+msgstr "Google Analytics By MonsterInsights Pro にアップグレード"
+
+#: admin/pages/dashboard.php:14 admin/pages/extensions.php:14
+#: admin/pages/settings.php:10
+msgid "Google Analytics by MonsterInsights: "
+msgstr "Google Analytics by MonsterInsights:"
+
+#. #-#-#-#-#  tmp-google-analytics-for-wordpress.pot (Google Analytics by
+#. MonsterInsights 5.5.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-admin.php:553
+msgid "Google Analytics by MonsterInsights"
+msgstr "Google Analytics by MonsterInsights"
+
+#: admin/class-admin.php:547
+msgid "Google Analytics by MonsterInsights Pro"
+msgstr "Google Analytics by MonsterInsights Pro"
+
+#: admin/class-admin-menu.php:100
+msgid "Insights"
+msgstr "インサイト"
+
+#: admin/class-admin-menu.php:100 admin/class-admin-menu.php:125
+msgid "Google Analytics by MonsterInsights:"
+msgstr "Google Analytics by MonsterInsights:"
+
+#. Description of the plugin/theme
+msgid "This plugin makes it simple to add Google Analytics to your WordPress site, adding lots of features, e.g. error page, search result and automatic outgoing links and download tracking."
+msgstr "このプラグインは、 WordPress サイトにシンプルに Google Analytics を追加するもので、多くの機能が追加されます。 例: エラーページ、検索結果、自動リンク先移動やダウンロードのトラッキング機能"
+
+#: vendor/yoast/license-manager/views/form.php:84
+#: vendor/yoast/license-manager-2/views/form.php:84
+msgid "%sRenew your license now%s."
+msgstr "%sライセンスを更新%sしてください。"
+
+#: vendor/yoast/license-manager/views/form.php:81
+#: vendor/yoast/license-manager-2/views/form.php:81
+msgid "Your %s license will expire on %s."
+msgstr "%s ライセンスは %s に期限切れになります。"
+
+#: vendor/yoast/license-manager/views/form.php:64
+#: vendor/yoast/license-manager-2/views/form.php:64
+msgid "You defined your license key using the %s PHP constant."
+msgstr "ライセンスキーを %s PHP 定数で指定しています。"
+
+#: vendor/yoast/license-manager/views/form.php:62
+#: vendor/yoast/license-manager-2/views/form.php:62
+msgid "Paste your %s license key here.."
+msgstr "ここに %s ライセンスキーを入力..."
+
+#: vendor/yoast/license-manager/views/form.php:60
+#: vendor/yoast/license-manager-2/views/form.php:60
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: vendor/yoast/license-manager/views/form.php:52
+#: vendor/yoast/license-manager-2/views/form.php:52
+msgid "Please enter a license key in the field below first."
+msgstr "まず下のフィールドにライセンスキーを入力してください。"
+
+#: vendor/yoast/license-manager/views/form.php:46
+#: vendor/yoast/license-manager-2/views/form.php:46
+msgid "(deactivate your license so you can activate it on another WordPress site)"
+msgstr "(他の WordPress サイトで使えるようにするには無効化してください)"
+
+#: vendor/yoast/license-manager/views/form.php:45
+#: vendor/yoast/license-manager-2/views/form.php:45
+msgid "Deactivate License"
+msgstr "ライセンスの無効化"
+
+#: vendor/yoast/license-manager/views/form.php:41
+#: vendor/yoast/license-manager-2/views/form.php:41
+msgid "Toggle license status"
+msgstr "ライセンスステータスの切り替え"
+
+#: vendor/yoast/license-manager/views/form.php:31
+#: vendor/yoast/license-manager-2/views/form.php:31
+msgid "License status"
+msgstr "ライセンス状態"
+
+#: vendor/yoast/license-manager/views/form.php:19
+#: vendor/yoast/license-manager-2/views/form.php:19
+msgid "Your server has an outdated version of the PHP module cURL (Version: %s). Please ask your hosting company to update this to a recent version of cURL. You can read more about that in our %sKnowledge base%s."
+msgstr "サーバの PHP モジュール cURL (バージョン: %s) は古すぎます。 cURL を最新版に更新するようホスティング会社に問い合わせてください。詳細は%sナレッジベース%sをご覧ください。"
+
+#: vendor/yoast/license-manager/views/form.php:15
+#: vendor/yoast/license-manager-2/views/form.php:15
+msgid "We couldn't create a connection to our API to verify your license key(s). Please ask your hosting company to allow outgoing connections from your server to %s."
+msgstr "ライセンスキーの認証のための API に接続できませんでした。サーバから %s への接続を許可するようホスティング会社に問い合わせてください。"
+
+#: vendor/yoast/license-manager/class-update-manager.php:157
+#: vendor/yoast/license-manager-2/class-update-manager.php:157
+msgid "This site has not been activated properly on yoast.com and thus cannot check for future updates. Please activate your site with a valid license key."
+msgstr "このサイトは yoast.com 上で適切にアクティベートされていないため、今後のアップデートのためのチェックができません。有効なライセンスキーでサイトをアクティベートしてください。"
+
+#: vendor/yoast/license-manager/class-update-manager.php:79
+#: vendor/yoast/license-manager-2/class-update-manager.php:79
+msgid "%s failed to check for updates because of the following error: <em>%s</em>"
+msgstr "以下のエラーにより、%s は更新を確認できませんでした: <em>%s</em>"
+
+#: vendor/yoast/license-manager/class-theme-update-manager.php:97
+#: vendor/yoast/license-manager-2/class-theme-update-manager.php:97
+msgid "<strong>%s version %s</strong> is available. <a href=\"%s\" class=\"thickbox\" title=\"%s\">Check out what's new</a> or <a href=\"%s\" %s>update now</a>."
+msgstr "<strong>%s バージョン %s</strong> に更新できます。<a href=\"%s\" class=\"thickbox\" title=\"%s\">更新内容を確認</a>するか、<a href=\"%s\" %s>今すぐ更新</a>してください。"
+
+#: vendor/yoast/license-manager/class-theme-update-manager.php:92
+#: vendor/yoast/license-manager-2/class-theme-update-manager.php:92
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "このテーマを更新すると、行ったすべてのカスタマイズが失われます。中止するには「キャンセル」を、更新するには「OK」をクリックして下さい。"
+
+#: vendor/yoast/license-manager/class-theme-license-manager.php:34
+#: vendor/yoast/license-manager-2/class-theme-license-manager.php:34
+msgid "Theme License"
+msgstr "テーマのライセンス"
+
+#: vendor/yoast/license-manager/class-theme-license-manager.php:34
+#: vendor/yoast/license-manager-2/class-theme-license-manager.php:34
+msgid "%s License"
+msgstr "%s ライセンス"
+
+#: vendor/yoast/license-manager/class-plugin-license-manager.php:75
+#: vendor/yoast/license-manager-2/class-plugin-license-manager.php:75
+msgid "%s is network activated, please contact your site administrator to manage the license."
+msgstr "%s はネットワーク全体で有効化されています。ライセンスを管理するにはサイト管理者に連絡してください。"
+
+#: vendor/yoast/license-manager/class-plugin-license-manager.php:73
+#: vendor/yoast/license-manager-2/class-plugin-license-manager.php:73
+msgid "%s is network activated, you can manage your license in the <a href=\"%s\">network admin license page</a>."
+msgstr "%s はネットワークで有効化されています。<a href=\"%s\"> サイトネットワーク管理のライセンスページ </a> 内でライセンスを管理することができます。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:426
+#: vendor/yoast/license-manager-2/class-license-manager.php:426
+msgid "%s: License Settings"
+msgstr "%s: ライセンス設定"
+
+#: vendor/yoast/license-manager/class-license-manager.php:267
+#: vendor/yoast/license-manager-2/class-license-manager.php:267
+msgid "Request error: \"%s\" (%scommon license notices%s)"
+msgstr "リクエストエラー: \"%s\" (%s共通ライセンス通知%s)"
+
+#: vendor/yoast/license-manager/class-license-manager.php:231
+#: vendor/yoast/license-manager-2/class-license-manager.php:231
+msgid "Failed to deactivate your %s license."
+msgstr "%s ライセンスを無効化できませんでした。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:229
+#: vendor/yoast/license-manager-2/class-license-manager.php:229
+msgid "Your %s license has been deactivated."
+msgstr "%s ライセンスを無効化しました。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:205
+#: vendor/yoast/license-manager-2/class-license-manager.php:205
+msgid "Failed to activate your license, your license key seems to be invalid."
+msgstr "ライセンスを有効化できませんでした。ライセンスキーが間違っているようです。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:202
+#: vendor/yoast/license-manager-2/class-license-manager.php:202
+msgid "Your license has expired. You must <a href=\"%s\">extend your license</a> in order to use it again."
+msgstr "ライセンスの期限が切れています。再び使うには<a href=\"%s\">ライセンスを更新</a>する必要があります。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:199
+#: vendor/yoast/license-manager-2/class-license-manager.php:199
+msgid "You've reached your activation limit. You must <a href=\"%s\">upgrade your license</a> to use it on this site."
+msgstr "認証上限に達しました。このサイトで利用するには<a href=\"%s\">ラインセンスをアップグレード</a>してください。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:190
+#: vendor/yoast/license-manager-2/class-license-manager.php:190
+msgid "<a href=\"%s\">Your license is expiring in %d days, would you like to extend it?</a>"
+msgstr "<a href=\"%s\">ライセンスは%d日後に期限切れになります。更新しますか ?</a>"
+
+#: vendor/yoast/license-manager/class-license-manager.php:186
+#: vendor/yoast/license-manager-2/class-license-manager.php:186
+msgid "<a href=\"%s\">Did you know you can upgrade your license?</a>"
+msgstr "<a href=\"%s\">ライセンスをアップグレードできるのをご存知ですか ?</a>"
+
+#: vendor/yoast/license-manager/class-license-manager.php:181
+#: vendor/yoast/license-manager-2/class-license-manager.php:181
+msgid "You have used %d/%d activations. "
+msgstr "%d件 (%d件中) を有効化済みです。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:179
+#: vendor/yoast/license-manager-2/class-license-manager.php:179
+msgid "You have an unlimited license. "
+msgstr "無制限ライセンスを保持しています。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:175
+#: vendor/yoast/license-manager-2/class-license-manager.php:175
+msgid "Your %s license has been activated. "
+msgstr "%s ライセンスを有効化しました。"
+
+#: vendor/yoast/license-manager/class-license-manager.php:134
+#: vendor/yoast/license-manager-2/class-license-manager.php:134
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr "<b>警告!</b> 外部のリクエストをブロックしているため、 %s の更新が取得できません。%s を %s に追加してください。"
+
+#: googleanalytics.php:112
+msgid "The (standard) PHP filter extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "(標準) PHP フィルター拡張が利用できないようです。ホスティングサービスに有効化を依頼してください。"
+
+#: googleanalytics.php:99
+msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "標準 PHP ライブラリ (SPL) 拡張が利用できないようです。ホスティングサービスに有効化を依頼してください。"
+
+#: frontend/abstract-class-tracking.php:482
+msgid "Normally you will find the Google Analytics tracking code here, but the webmaster has enabled the Debug Mode."
+msgstr "通常は、ここで Google Analytics トラッキングコードを検出できますが、ウェブマスターがデバッグモード有効にしています。"
+
+#: frontend/abstract-class-tracking.php:479
+msgid "@Webmaster, normally you will find the Google Analytics tracking code here, but the Debug Mode is enabled. To change this, navigate to Analytics -> Settings -> (Tab) Debug Mode and disable Debug Mode to enable tracking of your site."
+msgstr "@Webmasterは、通常、ここで Google Analyticsのトラッキングコードを検出できますが、現在デバッグモードが有効になっています。これを変更して、サイトのトラッキングを有効にするには [分析] -> [設定] -> （タブ）デバッグモードとデバッグモードを有効にします。"
+
+#: frontend/abstract-class-tracking.php:461
+msgid "Normally you will find the Google Analytics tracking code here, but the webmaster disabled your user group."
+msgstr "通常は、ここで Google Analytics トラッキングコードを検出できますが、ウェブマスターがユーザグループを無効にしました。"
+
+#: frontend/abstract-class-tracking.php:458
+msgid "@Webmaster, normally you will find the Google Analytics tracking code here, but you are in the disabled user groups. To change this, navigate to Analytics -> Settings (Ignore usergroups)"
+msgstr "@Webmaster は、通常、ここで Google Analytics トラッキングコードを検出できますが、現在、無効なユーザーグループに属しています。これを変更するには、[分析] - > [設定] （ユーザグループを無視）に移動します。"
+
+#: frontend/abstract-class-tracking.php:455
+#: frontend/abstract-class-tracking.php:476
+msgid "This site uses the %1$s plugin version %2$s"
+msgstr "このサイトは %1$s プラグインのバージョン %2$s を使用しています"
+
+#: admin/views/content-footer.php:14
+msgid "Remove these ads?"
+msgstr "広告を削除"
+
+#: admin/pages/settings.php:185
+msgid "Select the users to ignore"
+msgstr "無視するユーザーを選択"
+
+#: admin/pages/settings.php:171
+msgid "Enable debug mode"
+msgstr "デバッグモードを有効化"
+
+#: admin/pages/settings.php:169
+msgid "<strong>Note</strong> the debugging is only loaded for administrators."
+msgstr "<strong>注:</strong> デバッガーは管理者のみに対して読み込まれます。"
+
+#: admin/pages/settings.php:168
+msgid "If you want to confirm that tracking on your blog is working as it should, enable this option and check the console of your browser. Be absolutely sure to disable debugging afterwards, as it is slower than normal tracking."
+msgstr "ブログ上のトラッキング作業を必須として確認したい場合は、このオプションを有効にし、お使いのブラウザのコンソールを確認してください。通常のトラッキングよりも遅くなるので、その後のデバッグの無効化を必ず確認してください。"
+
+#: admin/pages/settings.php:165
+msgid "Debug"
+msgstr "デバッグ"
+
+#: admin/pages/settings.php:158
+msgid "Custom dimensions"
+msgstr "カスタムサイズ"
+
+#: admin/pages/settings.php:147
+msgid "Not for the average user: this allows you to add a line of code, to be added before the %1$s call."
+msgstr "一般ユーザー向けのものではありません: ここでは %1$s のコール以前に追加される（カスタムな）コードの追加を許可します。"
+
+#: admin/pages/settings.php:147
+msgid "Custom code"
+msgstr "カスタムコード"
+
+#: admin/pages/settings.php:145
+msgid "This adds a %1$s call to your tracking code, allowing you to use %2$s and related functions."
+msgstr "これは、%2$s や関連ファンクションが使えるよう、トラッキングコードに %1$s のコールを追加します。"
+
+#: admin/pages/settings.php:145
+msgid "Add <code>_setAllowLinker</code>"
+msgstr "<code>_setAllowLinker</code> を追加"
+
+#: admin/pages/settings.php:144
+msgid "This adds a %1$s call to your tracking code, and makes RSS link tagging use a %2$s as well."
+msgstr "トラッキングコードに %1$s へのコールを追加し、RSS リンクのタグ付けに %2$s を使うようにします。"
+
+#: admin/pages/settings.php:144
+msgid "Allow anchor"
+msgstr "アンカーを許可"
+
+#: admin/pages/settings.php:143
+msgid "Do not use this feature if you use FeedBurner, as FeedBurner can do this automatically and better than this plugin can. Check <a href=\"https://support.google.com/feedburner/answer/165769?hl=en&amp;ref_topic=13075\" target=\"_blank\">this help page</a> for info on how to enable this feature in FeedBurner."
+msgstr "FeedBurner を使用している場合は、プラグインよりもオートフィード機能の方が優先されるため、この機能を使用しないでください。 FeedBurner 内でどのようにこの機能を有効にするかの情報は <a href=\"https://support.google.com/feedburner/answer/165769?hl=en&amp;ref_topic=13075\" target=\"_blank\"> ヘルプページはこちら </a> をチェックしてください。 "
+
+#: admin/pages/settings.php:143
+msgid "Tag links in RSS feed with campaign variables"
+msgstr "キャンペーン変数を伴った RSS フィード内のタグのリンク"
+
+#: admin/pages/settings.php:141
+msgid "Label for those links"
+msgstr "これらのリンクのラベル"
+
+#: admin/pages/settings.php:140
+msgid "If you want to track all internal links that begin with %1$s, enter %1$s in the box above. If you have multiple prefixes you can separate them with comma's: %2$s"
+msgstr "%1$s で始まるすべての内部リンクをトラックしたい場合、上記のボックス内に %1$s を入力します。 複数のプリフィクス（接頭辞）を持っている場合は、それらをカンマで区切って指定することができます： %2$s"
+
+#: admin/pages/settings.php:140
+msgid "Set path for internal links to track as outbound links"
+msgstr "内部リンクを外部離脱リンクとしてトラックするためのパスを設定"
+
+#: admin/pages/settings.php:138
+msgid "This allows you to set the domain that's set by %1$s for tracking subdomains.<br/>If empty, this will not be set."
+msgstr "ここでは %1$s  によってサブドメインのトラッキング用のドメインの設定が可能です。 <br/> 空の場合は、設定されません。"
+
+#: admin/pages/settings.php:138
+msgid "Subdomain tracking"
+msgstr "サブドメインのトラッキング"
+
+#: admin/pages/settings.php:137
+msgid "Track full URL of outbound clicks or just the domain"
+msgstr "外部リンクへのクリック数を URL のフルパスかドメイン別でトラック"
+
+#: admin/pages/settings.php:136
+msgid "Extensions of files to track as downloads"
+msgstr "ダウンロードを計測するファイルの拡張子"
+
+#: admin/pages/settings.php:135
+msgid "Not recommended, as this would skew your statistics, but it does make it possible to track downloads as goals."
+msgstr "これはあなたの統計情報をゆがめることになるため推奨しませんが、ダウンロード数を最終到達（数）としてトラックすることは可能です。"
+
+#: admin/pages/settings.php:135
+msgid "Track downloads as"
+msgstr "ダウンロード数を以下としてトラック"
+
+#: admin/pages/settings.php:134
+msgid "Advanced settings"
+msgstr "詳細設定"
+
+#: admin/pages/settings.php:124
+msgid "Add %1$sEnhanced Link Attribution%2$s to your tracking code."
+msgstr "トラッキングコードに%1$s拡張リンク属性%2$sを追加する。"
+
+#: admin/pages/settings.php:124
+msgid "Enhanced Link Attribution"
+msgstr "拡張リンク属性"
+
+#: admin/pages/settings.php:118
+msgid "Check this setting to add the Demographics and Remarketing features to your Google Analytics tracking code. We've written an article in our %1$sknowledge base%2$s about Demographics and Interest reports. For more information about Remarketing, we refer you to %3$sGoogle's documentation%2$s."
+msgstr "Google Analytics トラッキングコードに人口統計とリマーケティング機能を追加するには、この設定をチェックします。 人口統計およびインタレストマッチング用のレポートについては、%1$s ナレッジベース %2$s 内にトピックスが記載されています。 リマーケティングの詳細については %3$s Google のドキュメント %2$s を参照してください。"
+
+#: admin/pages/settings.php:115
+msgid "Note that usage of this function is affected by privacy and cookie laws around the world. Be sure to follow the laws that affect your target audience."
+msgstr "この機能の使用は、世界中のプライバシーとクッキーの法律によって影響されることに注意してください。各国のオーディエンスターゲティングに関する法律に従って使用してください。"
+
+#: admin/pages/settings.php:113
+msgid "Enable Demographics and Interests Reports for Remarketing and Advertising"
+msgstr "リマーケティングと広告用にユーザー属性・ユーザーインタレストのレポートを有効化"
+
+#: admin/pages/settings.php:110
+msgid "First enable Universal tracking in your Google Analytics account. Please read %1$sthis guide%2$s to learn how to do that."
+msgstr "まず Google アナリティクスのアカウントでユニバーサルトラッキングを有効にしてください。詳しい手順については%1$sこちらのガイド%2$sをご覧ください。"
+
+#: admin/pages/settings.php:110
+msgid "Enable Universal tracking"
+msgstr "ユニバーサルトラッキングを有効化"
+
+#: admin/pages/settings.php:109
+msgid "Universal settings"
+msgstr "ユニバーサル設定"
+
+#: admin/pages/settings.php:103
+msgid "This will completely disable the dashboard and stop the plugin from fetching the latest analytics data."
+msgstr "ここでは完全にダッシュボードが無効とされ、フェッチされた最新の分析データからプラグインを停止します。"
+
+#: admin/pages/settings.php:103
+msgid "Disable analytics dashboard"
+msgstr "アナリティクスダッシュボードを無効化"
+
+#: admin/pages/settings.php:102
+msgid "Users of the role you select will be ignored, so if you select Editor, all Editors will be ignored."
+msgstr "選択した権限グループは無視されます。例えば編集者を選択するとすべての編集者が無視されます。"
+
+#: admin/pages/settings.php:102
+msgid "Ignore users"
+msgstr "ユーザーを無視"
+
+#: admin/pages/settings.php:101
+msgid "This adds %1$s, telling Google Analytics to anonymize the information sent by the tracker objects by removing the last octet of the IP address prior to its storage."
+msgstr "ここでは %1$s を追加します。ストレージに格納する前に、IPアドレスの最後のオクテットが除去されたトラッカーオブジェクトにより、匿名化された情報が Google Analytics に送信されます。"
+
+#: admin/pages/settings.php:101
+msgid "Anonymize IPs"
+msgstr "IP を匿名化"
+
+#: admin/pages/settings.php:100
+msgid "By allowing us to track anonymous data we can better help you, because we know with which WordPress configurations, themes and plugins we should test. No personal data will be submitted."
+msgstr "我々は検証するべき WordPress の構成、テーマやプラグインに知見があるため、匿名データをトラッキングできるようにすることで、あなたのサイト運用をより良く支援することができます。 いかなる個人データも送信されることはありません。"
+
+#: admin/pages/settings.php:100
+msgid "Allow tracking of anonymous data"
+msgstr "匿名データのトラッキングを許可"
+
+#: admin/pages/settings.php:99
+msgid "Clicks and downloads will be tracked as events, you can find these under Content &#xBB; Event Tracking in your Google Analytics reports."
+msgstr "クリック数とダウンロードがイベントとしてトラッキングされ、GoogleAnalyticsのレポート内のコンテンツ&#xBB; イベントトラッキングの下でこれらを見つけることができます。"
+
+#: admin/pages/settings.php:99
+msgid "Track outbound click and downloads"
+msgstr "他サイトへのクリックおよびダウンロードをトラッキング"
+
+#: admin/pages/settings.php:93
+msgid "Warning: If you use a manual UA code, you won't be able to use the dashboards."
+msgstr "警告： 手動の UA コードを使用している場合は、ダッシュボードを使用することができません。"
+
+#: admin/pages/settings.php:89
+msgid "Manually enter your UA code"
+msgstr "UA コードを手動入力"
+
+#: admin/pages/settings.php:85
+msgid "Until this is fixed, you can only use the manual authentication method and cannot use the dashboards feature."
+msgstr "これがフィックスされるまで、手動での承認メソッドのみ使用可能となり、ダッシュボード機能は使用できません。"
+
+#: admin/pages/settings.php:83
+msgid "Your firewall or webhost is blocking requests to Google, please ask your webhost company to fix this."
+msgstr "ファイアウォールまたはウェブホストが Google へのリクエストをブロッキングしているため、ホスティング会社へお問い合わせください。"
+
+#: admin/pages/settings.php:80
+msgid "Your server is blocking requests to Google, to fix this, add <code>*.googleapis.com</code> to the <code>WP_ACCESSIBLE_HOSTS</code> constant in your <em>wp-config.php</em> or ask your webhost to do this."
+msgstr "ご利用中のサーバーが Google へのリクエストをブロック中です。修正するには、<code>*.googleapis.com</code> を <em>wp-config.php</em> の <code>WP_ACCESSIBLE_HOSTS</code> に追加するか、ホスティングサービスに頼んで追加してもらってください。"
+
+#: admin/pages/settings.php:78
+msgid "Cannot connect to Google"
+msgstr "Google に接続できません"
+
+#: admin/pages/settings.php:74
+msgid "Save authentication code"
+msgstr "認証コードを保存"
+
+#: admin/pages/settings.php:70
+msgid "Paste your Google code here"
+msgstr "Google コードをここにペースト"
+
+#: admin/pages/settings.php:64
+msgid "Re-authenticate with your Google account"
+msgstr "Google アカウントで再認証"
+
+#: admin/pages/settings.php:60
+msgid "Select a profile"
+msgstr "プロフィールを選択"
+
+#: admin/pages/settings.php:60
+msgid "Analytics profile"
+msgstr "アナリティクスプロフィール"
+
+#: admin/pages/settings.php:55
+msgid "Current UA-profile"
+msgstr "現在の UA プロファイル"
+
+#: admin/pages/settings.php:52
+msgid "Authenticate with your Google account"
+msgstr "Google アカウントで認証"
+
+#: admin/pages/settings.php:51
+msgid "Google profile"
+msgstr "Google プロフィール"
+
+#: admin/pages/settings.php:46
+msgid "Paste your Google authentication code"
+msgstr "Google 認証コードをペーストしてください"
+
+#: admin/pages/settings.php:22
+msgid "Debug mode"
+msgstr "デバッグモード"
+
+#: admin/pages/settings.php:20
+msgid "Custom Dimensions"
+msgstr "カスタムサイズ"
+
+#: admin/pages/settings.php:19
+msgid "Advanced"
+msgstr "上級者モード"
+
+#: admin/pages/settings.php:18
+msgid "Universal"
+msgstr "ユニバーサル"
+
+#: admin/pages/settings.php:17
+msgid "General"
+msgstr "一般"
+
+#: admin/pages/extensions.php:51
+msgid "You have not installed any extensions for Google Analytics by MonsterInsights, so there are no licenses to activate."
+msgstr "Google Analytics by MonsterInsights の拡張機能はインストールしていないため、有効化するライセンスはありません。"
+
+#: admin/pages/extensions.php:41
+msgid "Installed"
+msgstr "インストール済み"
+
+#: admin/pages/extensions.php:39 vendor/yoast/license-manager/views/form.php:50
+#: vendor/yoast/license-manager-2/views/form.php:50
+msgid "Activate License"
+msgstr "ライセンスの有効化"
+
+#: admin/pages/extensions.php:36
+msgid "Get this extension"
+msgstr "この拡張機能を入手"
+
+#: admin/pages/extensions.php:18
+msgid "Licenses"
+msgstr "ライセンス"
+
+#: admin/pages/dashboard.php:101
+msgid "Select a dimension"
+msgstr "サイズを選択"
+
+#: admin/pages/dashboard.php:66 admin/pages/dashboard.php:112
+msgid "You have not yet finished setting up Google Analytics for Wordpress by MonsterInsights. Please %sadd your Analytics profile here%s to enable tracking."
+msgstr "まだ WordPress 用の Google Analytics by MonsterInsights の設定が終了していません。 トラッキングを有効にするには、%s Analytics プロファイルをこちらに追加 %s してください。"
+
+#: admin/pages/dashboard.php:53 admin/pages/dashboard.php:92
+msgid "Because we've switched to a newer version of the Google Analytics API, you'll need to re-authenticate with Google Analytics. We're sorry for the inconvenience. You can %sre-authenticate your Google Analytics profile here%s."
+msgstr "Google Analytics API が新しいバージョンに切り替えられたので、 Google Analytics で再認証する必要があります。 ご不便をおかけして申し訳ございません。 %s Google Analytics プロファイルの再認証はこちら %s をご利用いただけます。"
+
+#: admin/pages/dashboard.php:44 admin/pages/dashboard.php:83
+msgid "We need you to authenticate with Google Analytics to use this functionality. If you set your UA-code manually, this won't work. You can %sauthenticate your Google Analytics profile here%s to enable dashboards."
+msgstr "この機能を使用するには、 Google Analyticsでの認証が必要となります。手動で UA（UserAgent）コードを設定した場合は動作しません。 ダッシュボードを有効にするには %s Google Analytics プロファイルの認証はこちら %s をご利用いただけます。"
+
+#: admin/pages/dashboard.php:17
+msgid "Overview"
+msgstr "概要"
+
+#: admin/dashboards/views/graph.php:15 admin/dashboards/views/table.php:15
+msgid "Last month"
+msgstr "先月"
+
+#: admin/dashboards/class-admin-dashboards.php:223
+msgid "The country or territory from which visits originated. <a href=\"http://yoa.st/gacountry\" target=\"_blank\">[Learn more]</a>"
+msgstr "訪問者の所在国または地域 <a href=\"http://yoa.st/gacountry\" target=\"_blank\">[詳細]</a>"
+
+#: admin/dashboards/class-admin-dashboards.php:222
+msgid "Countries"
+msgstr "国"
+
+#: admin/dashboards/class-admin-dashboards.php:214
+msgid "Pages by url."
+msgstr "ページを URL で表示"
+
+#: admin/dashboards/class-admin-dashboards.php:213
+msgid "Popular pages"
+msgstr "人気のページ"
+
+#: admin/dashboards/class-admin-dashboards.php:205
+msgid "Every referral to a web site has an origin, or (traffic) source. Possible sources include: “google” (the name of a search engine), “facebook.com” (the name of a referring site), “spring_newsletter” (the name of one of your newsletters), and “direct” (users that typed your URL directly into their browser, or who had bookmarked your site). <a href=\"http://yoa.st/gabnce\" target=\"_blank\">[Learn more]</a>"
+msgstr "サイトへの流入元には、すべて参照元または（トラフィックの）ソースを持っています。 可能なソースには以下が挙げられます； ”google” （検索エンジンの名称）；\"facebook.com\" （流入元サイトの名称）、“spring_newsletter”（ニュースレターの名称の１つ）、”直接流入”（ユーザがブラウザ上からサイトのURLを直接入力、もしくは事前にサイトがブックマークされている場合） <a href=\"http://yoa.st/gabnce\" target=\"_blank\">[Learn more]</a> "
+
+#: admin/dashboards/class-admin-dashboards.php:204
+msgid "Traffic sources"
+msgstr "トラフィック元"
+
+#: admin/dashboards/class-admin-dashboards.php:198
+msgid "Bounce Rate is the percentage of single-page sessions (i.e. sessions in which the person left your site from the entrance page without interacting with the page). <a href=\"http://yoa.st/gabounce\" target=\"_blank\">[Learn more]</a>"
+msgstr "バウンスレートとは、単一のページのみのセッションとなった割合をパーセント表示されたものです。（i.e. サイトに訪れたユーザが入口ページで何もインタラクションせずに離脱したセッションのこと） <a href=\"http://yoa.st/gabounce\" target=\"_blank\">[Learn more]</a>"
+
+#: admin/dashboards/class-admin-dashboards.php:197
+msgid "Bounce rate"
+msgstr "バウンスレート"
+
+#: admin/dashboards/class-admin-dashboards.php:192
+msgid "A session is a group of interactions that take place on your website within a given time frame. For example a single session can contain multiple screen or page views, events, social interactions, and ecommerce transactions. <a href=\"http://yoa.st/gasessions\" target=\"_blank\">[Learn more]</a>"
+msgstr "セッションは、一定の時間内にサイト上で行われたやりとり（インタラクション）をまとめたものです。例えば、１つのセッションには複数の画面およびページビュー数、イベント数、ソーシャルインタラクション数や e コマースのトランザクションが含まれます。  <a href=\"http://yoa.st/gasessions\" target=\"_blank\">[Learn more]</a>"
+
+#: admin/dashboards/class-admin-dashboards.php:191
+#: admin/dashboards/class-admin-dashboards.php:208
+#: admin/dashboards/class-admin-dashboards.php:217
+#: admin/dashboards/class-admin-dashboards.php:226
+msgid "Sessions"
+msgstr "セッション"
+
+#: admin/dashboards/class-admin-dashboards.php:153 admin/pages/dashboard.php:19
+msgid "Custom dimension reports"
+msgstr "カスタムサイズレポート"
+
+#: admin/dashboards/class-admin-dashboards.php:152 admin/pages/dashboard.php:18
+msgid "Reports"
+msgstr "レポート"
+
+#: admin/dashboards/class-admin-dashboards.php:149
+msgid "No matching records found"
+msgstr "一致するレコードが見つかりませんでした"
+
+#: admin/dashboards/class-admin-dashboards.php:148
+msgid "Search"
+msgstr "検索"
+
+#: admin/dashboards/class-admin-dashboards.php:147
+msgid "Processing..."
+msgstr "処理中..."
+
+#: admin/dashboards/class-admin-dashboards.php:146
+msgid "Previous"
+msgstr "前へ"
+
+#: admin/dashboards/class-admin-dashboards.php:145
+msgid "Next"
+msgstr "次へ"
+
+#: admin/dashboards/class-admin-dashboards.php:144
+msgid "Last"
+msgstr "最後"
+
+#: admin/dashboards/class-admin-dashboards.php:143
+msgid "First"
+msgstr "最初"
+
+#: admin/dashboards/class-admin-dashboards.php:142
+msgid "Loading..."
+msgstr "読み込み中..."
+
+#: admin/dashboards/class-admin-dashboards.php:141
+msgctxt "_MAX_ will be replaced by JS"
+msgid "Show _MENU_ rows"
+msgstr "_MENU_ 列を表示"
+
+#: admin/dashboards/class-admin-dashboards.php:140
+msgctxt "_MAX_ will be replaced by JS (See: http://datatables.net/reference/option/language.infoFiltered)"
+msgid "(filtered from _MAX_ total rows)"
+msgstr "(合計 _MAX_ 列からフィルター)"
+
+#: admin/dashboards/class-admin-dashboards.php:139
+msgid "No rows to show"
+msgstr "表示する列がありません"
+
+#: admin/dashboards/class-admin-dashboards.php:138
+msgctxt "_START_, _END_ and _TOTAL_ will be replaced by JS (See: http://datatables.net/reference/option/language.info)"
+msgid "Showing _START_ to _END_ of _TOTAL_ rows"
+msgstr "_START_ to _END_ of _TOTAL_ 行の表示"
+
+#: admin/dashboards/class-admin-dashboards.php:137
+msgid "No data available"
+msgstr "データがありません"
+
+#: admin/dashboards/class-admin-dashboards.php:136
+msgid ": activate to sort column descending"
+msgstr ": 有効化してカラムを降順にソート"
+
+#: admin/dashboards/class-admin-dashboards.php:135
+msgid ": activate to sort column ascending"
+msgstr ": 有効化してカラムを昇順にソート"
+
+#: admin/class-google-analytics.php:349
+msgid "Data is not up-to-date, there was an error in retrieving the data from Google Analytics. This error could be caused by several issues. If the error persists, please see %sthis page%s."
+msgstr "データが最新ではありません。 Google Analytics からのデータ取得にエラーが生じています。このエラーは、いくつかの問題が原因で発生する可能性があります。 エラーが解決しない場合は %s こちらのページ %s を参照してください。"
+
+#: admin/class-google-analytics.php:336
+msgid "It seems the authentication for the plugin has expired, please %sre-authenticate%s with Google Analytics to allow the plugin to fetch data."
+msgstr "プラグイン用の認証の有効期限が切れているようです。 データをフェッチするためのプラグインを可能にするために、Google Analytics で %s 再認証 %s を行ってください。"
+
+#: admin/class-google-analytics.php:323
+msgid "Please configure your %sGoogle Analytics settings%s!"
+msgstr "%sGoogle アナリティクス設定%sを完了してください。"
+
+#: admin/class-admin.php:554
+msgid "Track your eCommerce data and transactions with this eCommerce extension for Google Analytics."
+msgstr "Google Analytics 向けのこのe コマース拡張機能で e コマースのデータとトランザクションをトラックします。"
+
+#: admin/class-admin.php:553
+msgid "eCommerce tracking"
+msgstr "eコマーストラッキング"
+
+#: admin/class-admin.php:548
+msgid "The premium version of Google Analytics by MonsterInsights with more features and support."
+msgstr "さらに多くの機能とサポートが含まれる Google Analytics by MonsterInsights のプレミアムバージョン。"
+
+#: admin/class-admin.php:469
+msgid "Full links"
+msgstr "完全なリンク"
+
+#: admin/class-admin.php:468
+msgid "Just the domain"
+msgstr "ドメインのみ"
+
+#: admin/class-admin.php:457
+msgid "Pageview"
+msgstr "ページビュー"
+
+#: admin/class-admin.php:456
+msgid "Event"
+msgstr "イベント"
+
+#: admin/class-admin.php:342
+msgid "This will also give you access to the support team at MonsterInsights, who will provide support on the plugin 24/7."
+msgstr "これはさらに MonsterInsights で 24/7 体制のプラグイン上でサポートを提供しているところのサポートチームにアクセスすることができるようになっています。"
+
+#: admin/class-admin.php:340
+msgid "If you want to track custom dimensions like page views per author or post type, you should upgrade to the %1$spremium version of Google Analytics by MonsterInsights%2$s."
+msgstr "著者やポストタイプごとのページビュー数などのカスタム指標をトラックしたい場合は Google Analytics by MonsterInsights %2$s の %1$s プレミアムバージョンにアップグレードしてください。"
+
+#: admin/class-admin.php:325
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: admin/class-admin.php:187
+msgid "The UA code needs to follow UA-XXXXXXXX-X format."
+msgstr "UA コードは UA-XXXXXXXX-X のような形式でなくてはなりません。"
+
+#: admin/class-admin.php:143
+msgid "There were no changes to save, please try again."
+msgstr "保存する変更がありません。もう一度お試しください。"
+
+#: admin/class-admin.php:136
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: admin/class-admin.php:93
+msgid "MonsterInsights plugins share some code between them to make your site faster. As a result of that, we need all MonsterInsights plugins to be up to date. We've detected this isn't the case, so please update the MonsterInsights plugins that aren't up to date yet."
+msgstr "MonsterInsights プラグインは、いくつかのコードをより高速にサイトに共有します。サイトの更新された状態が保たれるよう、すべての MonsterInsights プラグインが必要となります。 最新ではない状況が検出されていますので、まだ更新されていない MonsterInsights プラグインはアップデートしてください。"
+
+#: admin/class-admin-menu.php:239 admin/pages/extensions.php:14
+#: admin/pages/extensions.php:17
+msgid "Extensions"
+msgstr "機能拡張"
+
+#: admin/class-admin-menu.php:232 admin/class-admin.php:328
+#: admin/pages/settings.php:10
+msgid "Settings"
+msgstr "設定"
+
+#: admin/class-admin-menu.php:226 admin/pages/dashboard.php:14
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: admin/class-admin-menu.php:100 admin/pages/settings.php:32
+msgid "General settings"
+msgstr "一般設定"
+
+#: admin/class-admin-form.php:46 admin/pages/settings.php:176
+msgid "Save changes"
+msgstr "変更を保存"

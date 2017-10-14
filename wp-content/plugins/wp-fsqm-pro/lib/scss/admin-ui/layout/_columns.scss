@@ -1,0 +1,41 @@
+// ==========================================================================
+// eForm Admin UI Columns
+// ==========================================================================
+.#{$selector} {
+	@media screen and ( min-width: $screen-lg-min ) {
+		/* Columns and Float */
+		.ipt_uif_left_col,
+		.ipt_uif_right_col {
+			width: 50%;
+			margin: 0;
+			padding: 0;
+			float: left;
+		}
+
+		.ipt_uif_left_col .ipt_uif_col_inner {
+			padding: 0 5px 0 0;
+		}
+		.ipt_uif_right_col .ipt_uif_col_inner {
+			padding: 0 0 0 5px;
+		}
+
+		.ipt_uif_column_small {
+			width: 25%;
+		}
+		.ipt_uif_column_medium {
+			width: 40%;
+		}
+		.ipt_uif_column_large {
+			width: 60%;
+		}
+
+		.ipt_uif_float_left {
+			float: left;
+		}
+		.ipt_uif_float_right {
+			float: right;
+		}
+	}
+}
+
+

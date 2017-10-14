@@ -1,0 +1,53 @@
+// ==========================================================================
+// RTL Compatibility for Form Builder
+// ==========================================================================
+
+.rtl {
+	#ipt_fsqm_form {
+		margin-left: 250px;
+		margin-right: 0;
+
+		#ipt_fsqm_form_builder {
+			direction: ltr;
+		}
+
+		#ipt_fsqm_form_builder {
+			#ipt-eform-builder-droppables-container {
+				right: auto;
+				left: 13px;
+
+				#ipt-eform-builder-droppable-container-control {
+					right: auto;
+					left: 0;
+				}
+			}
+		}
+
+		@media screen and ( min-width: $screen-sm-min ) {
+			&.eform-full-view {
+				margin-left: 0;
+				max-width: 100%;
+
+				#ipt_fsqm_form_builder {
+					#ipt-eform-builder-droppables-container {
+						left: -263px;
+						right: auto;
+
+						#ipt-eform-builder-droppable-container-control {
+							right: auto;
+							left: 263px;
+							height: 42px;
+							width: 23px;
+							@include material__box-shadow-subtle();
+							i {
+								&::before {
+									content: "\f04e";
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

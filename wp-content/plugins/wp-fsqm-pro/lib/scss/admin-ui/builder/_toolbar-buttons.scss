@@ -1,0 +1,56 @@
+// ==========================================================================
+// eForm Form Builder Toolbar
+// ==========================================================================
+#ipt_fsqm_form_toolbar {
+	position: relative;
+	margin: -1px 0 14px;
+	background-color: $builder-adder-background;
+	@include material__box-shadow-bottom();
+	z-index: 1;
+	clear: both;
+
+	.ipt_uif_button_container {
+		margin: 0;
+	}
+
+	.ipt_uif_button {
+		padding: 1em 0;
+		width: 250px;
+		@media screen and ( min-width: $screen-lg-min ) {
+			width: 350px;
+		}
+		max-width: 45%;
+		background-color: transparent;
+		line-height: $line-height-computed;
+
+		&:hover {
+			background-color: $builder-adder-background-hover;
+		}
+
+		&[disabled] {
+			background-color: $disabled-color;
+			&:hover {
+				background-color: $disabled-color;
+			}
+		}
+
+		&#ipt_fsqm_save {
+			float: left;
+		}
+		&#ipt_fsqm_preview {
+			float: right;
+		}
+		&#ipt-eform-preview-new-tab {
+			float: right;
+			width: auto;
+			padding: 1em 2em;
+		}
+	}
+	#ipt_fsqm_auto_save {
+		position: absolute;
+		width: 100%;
+		top: -6px;
+	}
+}
+
+

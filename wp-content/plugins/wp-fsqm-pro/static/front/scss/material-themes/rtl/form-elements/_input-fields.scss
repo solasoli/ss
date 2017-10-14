@@ -1,0 +1,43 @@
+// ==========================================================================
+// Input Field Styling
+// ==========================================================================
+body .#{$selector} {
+	.input-field {
+		&.has-icon {
+			input, textarea {
+				margin-left: 0;
+				margin-right: 3em;
+				~ label {
+					margin-left: 0;
+					margin-right: 3em;
+					text-align: right;
+				}
+			}
+		}
+		input, textarea {
+			~ label {
+				text-align: right;
+				width: 100%;
+			}
+		}
+	}
+	.eform-repeatable-container-noicon {
+		.input-field {
+			&.has-icon {
+				input, textarea {
+					margin-right: 0;
+					~ label {
+						margin-right: 0;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.ipt_uif_uispinner.ipt_uif_text,
+	input[type=number] {
+		text-align: left;
+	}
+}
+
+

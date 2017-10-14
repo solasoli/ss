@@ -1,0 +1,28 @@
+// ==========================================================================
+// Different Direction Styling
+// ==========================================================================
+body .#{$selector} {
+	direction: rtl;
+
+	.ipt_uif_likedislike_rating_inner {
+		direction: ltr;
+	}
+
+	.ipt_uif_heading {
+		direction: ltr;
+	}
+
+	.ipt_fsqm_fileuploader_list_wrap {
+		direction: ltr;
+	}
+
+	.ui-slider-tip {
+		direction: ltr;
+	}
+}
+
+.ui-datepicker-header {
+	direction: ltr;
+}
+
+

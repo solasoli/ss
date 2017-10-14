@@ -1,0 +1,112 @@
+// ==========================================================================
+// Summary Table
+// ==========================================================================
+body {
+	.ipt_fsqm_preview {
+		border-collapse: collapse;
+		background-color: $preset-bg;
+		width: 100%;
+		tbody,
+		thead,
+		tfoot,
+		tr,
+		td,
+		th {
+			border-radius: 0;
+			border: 1px solid $table-border-color;
+			color: #757575;
+			border-collapse: collapse;
+		}
+		thead,
+		th {
+			color: #212121;
+			font-weight: normal;
+		}
+		th, td {
+			padding: 1em 0.5em;
+		}
+		td {
+			background-color: $preset-bg;
+		}
+
+		thead,
+		tfoot,
+		.head {
+			border-color: $primary-color;
+			background-color: $primary-color;
+			color: $primary-color-text;
+			td, th {
+				border-color: $primary-color;
+				background-color: $primary-color;
+				color: $primary-color-text;
+			}
+		}
+
+		.head {
+			[rowspan],
+			[colspan] {
+				background-color: $preset-bg;
+				color: $primary-text-color;
+				border-color: $table-border-color;
+				text-align: left;
+			}
+		}
+
+		.with-bg {
+			td, th {
+				border-color: $primary-color;
+				background-color: $primary-color;
+				color: $primary-color-text;
+				&[rowspan],
+				&[colspan] {
+					border-color: $primary-color;
+					background-color: $primary-color;
+					color: $primary-color-text;
+				}
+			}
+		}
+
+		table {
+			height: 100%;
+			margin: -1px 0px -1px -1px;
+			width: calc( 100% + 2px );
+			border-collapse: collapse;
+			tbody, thead, tfoot, tr, th, td {
+				border-collapse: collapse;
+			}
+		}
+
+		img {
+			max-width: none;
+		}
+		.icons {
+			text-align: center;
+			img {
+				width: 16px;
+				height: auto;
+			}
+		}
+
+		.data {
+			padding: 0;
+		}
+	}
+
+	@media print {
+		-webkit-print-color-adjust: exact;
+		thead,
+		tfoot,
+		.head {
+			border-color: $primary-color !important;
+			background-color: $primary-color !important;
+			color: $primary-text-color !important;
+			td, th {
+				border-color: $primary-color !important;
+				background-color: $primary-color !important;
+				color: $primary-color-text !important;
+			}
+		}
+	}
+}
+
+

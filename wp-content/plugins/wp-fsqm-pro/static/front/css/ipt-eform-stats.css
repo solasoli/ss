@@ -1,0 +1,25 @@
+.ipt-eform-stats,
+.ipt-eform-stats::before,
+.ipt-eform-stats::after,
+.ipt-eform-stats *,
+.ipt-eform-stats *::before,
+.ipt-eform-stats *::after {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.ipt-eform-stats {
+	margin: 1em auto;
+	position: relative;
+	z-index: 1;
+}
+.ipt-eform-stats canvas {
+	position: relative;
+	z-index: 1;
+}
+.ipt-eform-stats::after {
+	content: "";
+	clear: both;
+	display: block;
+}

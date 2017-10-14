@@ -1,0 +1,18 @@
+// ==========================================================================
+// Direction Reset for Preloader
+// ==========================================================================
+body .#{$selector} {
+	.ipt_uif_init_loader {
+		direction: ltr;
+	}
+	.preloader-wrapper {
+		direction: ltr;
+	}
+	.ipt-eform-preloader-text {
+		text-align: left;
+		direction: ltr;
+	}
+}
+
+
+

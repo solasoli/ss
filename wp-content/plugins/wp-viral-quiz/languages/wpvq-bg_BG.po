@@ -1,0 +1,1609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Viral Quiz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-18 08:09+0000\n"
+"PO-Revision-Date: 2016-12-18 11:11+0000\n"
+"Last-Translator: Nik <tuksega@gmail.com>\n"
+"Language-Team: Bulgarian\n"
+"Language: bg-BG\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../plugins/wp-viral-quiz\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: bg_BG"
+
+#: wpvq-settings-page.php:36
+msgid "General Options"
+msgstr "Общи настройки"
+
+#: wpvq-settings-page.php:43
+msgid "Auto-scroll on game"
+msgstr "Автоматично движение на страницата по време на тест"
+
+#: wpvq-settings-page.php:51
+msgid "Scroll speed<br>(in milliseconds)"
+msgstr "Скорост на движение (в милисекунди)"
+
+#: wpvq-settings-page.php:59
+msgid "Allow subscribers ?"
+msgstr "Да се позволи на абонираните?"
+
+#: wpvq-settings-page.php:71
+msgid "Multipages Quiz Settings"
+msgstr "Настройки на тест съставен от мулти-страници"
+
+#: wpvq-settings-page.php:78
+msgid "Display progressbar"
+msgstr "Покажи лентата за количество преминати въпроси"
+
+#: wpvq-settings-page.php:86
+msgid "Text in the progressbar"
+msgstr "Текст върху лентата за количество преминати въпроси"
+
+#: wpvq-settings-page.php:94
+msgid "Progressbar color"
+msgstr "Цвят на лентата за количество преминати въпроси"
+
+#: wpvq-settings-page.php:102
+msgid "Time before changing page"
+msgstr "Време преди смяна на страница"
+
+#: wpvq-settings-page.php:102
+msgid "(in milliseconds)"
+msgstr "(в милисекунди)"
+
+#: wpvq-settings-page.php:113
+msgid "Ads Settings"
+msgstr "Настройки на обявите"
+
+#: wpvq-settings-page.php:120
+msgid "Just before each quiz"
+msgstr "Точно преди всеки тест"
+
+#: wpvq-settings-page.php:128
+msgid "Just after each quiz"
+msgstr "Точно след всеки тест"
+
+#: wpvq-settings-page.php:136 views/WPVQAddQuizz.php:556
+msgid "Above the result area (when a quiz is finished)"
+msgstr "Над мястото за резултати (когато теста е завършен)"
+
+#: wpvq-settings-page.php:144 views/WPVQAddQuizz.php:566
+msgid "Just after the text in the result area"
+msgstr "Точно след текста на мястото за резултати"
+
+#: wpvq-settings-page.php:152
+msgid "No ads for these quizzes :"
+msgstr "Без обяви в тези тестове:"
+
+#: wpvq-settings-page.php:163
+msgid "Enable Facebook Share Button"
+msgstr "Активирай бутона за споделяне във Фейсбук"
+
+#: wpvq-settings-page.php:170
+msgid "Your Facebook APP ID"
+msgstr "Вашият идентификатор за Фейсбук (Facebook API)"
+
+#: wpvq-settings-page.php:178
+msgid "Don't use Facebook API"
+msgstr "Не ползвай идентификатор за Фейсбук (Facebook API)"
+
+#: wpvq-settings-page.php:186
+msgid "Facebook SDK already included"
+msgstr "SDK за Фейсбук е вече добавен"
+
+#: wpvq-settings-page.php:197
+msgid "Social Networking Options"
+msgstr "Настройки за социалните мрежи"
+
+#: wpvq-settings-page.php:204
+msgid "Display button for :"
+msgstr "Покажи бутона за:"
+
+#: wpvq-settings-page.php:212
+msgid "Which Twitter hashtag do you want to use:"
+msgstr "Какъв хаштаг искате да ползвате в Туитър:"
+
+#: wpvq-settings-page.php:220
+msgid "Which Twitter @mention do you want to use:"
+msgstr "Чий @профил в Туитър желаете да споменете:"
+
+#: wpvq-settings-page.php:231 wpvq-settings-page.php:273
+msgid "Social Media Sharebox Settings "
+msgstr "Настройки на кутията за споделяне в социалните медии"
+
+#: wpvq-settings-page.php:231
+msgid "<span class=\"vq-badge vq-badge-primary\">For Personality Quiz</span>"
+msgstr "За тестове за индивидуалност"
+
+#: wpvq-settings-page.php:238 wpvq-settings-page.php:281
+msgid "Text on your page<br />(below the quiz) :"
+msgstr "Текст на Вашата страница (под теста):"
+
+#: wpvq-settings-page.php:246 wpvq-settings-page.php:289
+msgid "Content for Twitter :"
+msgstr "Съдържание за Туитър:"
+
+#: wpvq-settings-page.php:254 wpvq-settings-page.php:297
+msgid "Content for Facebook Title :"
+msgstr "Съдържание на заглавие във Фейсбук"
+
+#: wpvq-settings-page.php:262 wpvq-settings-page.php:305
+msgid "Content for Facebook Description :"
+msgstr "Съдържание на описание във Фейсбук"
+
+#: wpvq-settings-page.php:273
+msgid "<span class=\"vq-badge vq-badge-primary\">For TrueFalse Quiz</span>"
+msgstr ""
+"<span class=\"vq-badge vq-badge-primary\">За тестове от типа "
+"ВярноНевярно</span>"
+
+#: wpvq-settings-page.php:316
+msgid "Enable Auto Update"
+msgstr "Активирай автоматично обновяване"
+
+#: wpvq-settings-page.php:323
+msgid "Your Envato Purchase Code :"
+msgstr "Вашият код за покупка от Енвато (Envato Purchase Code):"
+
+#: wpvq-settings-page.php:334 wpvq-settings-page.php:933
+msgid "Under the Hood"
+msgstr "По-детайлни настройки"
+
+#: wpvq-settings-page.php:341
+msgid "Don't resize GIF picture"
+msgstr "Не променяй големината на изображение от типа GIF"
+
+#: wpvq-settings-page.php:349
+msgid "Display links instead of pictures (backoffice)"
+msgstr "Покажи линкове вместо изображения (backoffice)"
+
+#: wpvq-settings-page.php:357
+msgid "Allow minified files"
+msgstr "Позволи минимизирани файлове"
+
+#: wpvq-settings-page.php:365
+msgid "Disable players logs"
+msgstr "Деактивирай данните за резултатите на участниците"
+
+#: wpvq-settings-page.php:373
+msgid "Auto Scroll Offset"
+msgstr "Компенсация при автоматично придвижване на уеб страница"
+
+#: wpvq-settings-page.php:381
+msgid "Auto Scroll Offset (for Mobile)"
+msgstr ""
+"Компенсация при автоматично придвижване на уеб страница (за мобилни "
+"устройства)"
+
+#: wpvq-settings-page.php:389
+msgid "Custom CSS code"
+msgstr "Индивидуален CSS код"
+
+#: wpvq-settings-page.php:415
+msgid "Auto-scroll to the next question each time someone click an answer."
+msgstr "Премини автоматично към следващия въпрос, когато някой избере отговор."
+
+#: wpvq-settings-page.php:439
+msgid "Allow subscribers role to create quizzes"
+msgstr "Позволи на абонираните да създават тестове"
+
+#: wpvq-settings-page.php:448
+msgid ""
+"Configure your multipages quizzes easily. To understand how to create a "
+"multipages quiz,"
+msgstr ""
+"Конфигурирайте мултистраниците си с лекота. За да разберете как да създадете "
+"тест, състоящ се от мулти-страници, "
+
+#: wpvq-settings-page.php:450
+msgid "click here."
+msgstr "кликнете тук."
+
+#: wpvq-settings-page.php:469
+msgid "Hide progressbar"
+msgstr "Скрий лентата за количество преминати въпроси"
+
+#: wpvq-settings-page.php:470
+msgid "Display above the quiz"
+msgstr "Покажи над теста"
+
+#: wpvq-settings-page.php:471
+msgid "Display below the quiz"
+msgstr "Покажи под теста"
+
+#: wpvq-settings-page.php:472
+msgid "Display above and below"
+msgstr "Покажи отгоре и отдолу"
+
+#: wpvq-settings-page.php:485
+msgid "Leave blank"
+msgstr "Остави празно"
+
+#: wpvq-settings-page.php:486
+msgid "Show progress percentage (ex: 70%)"
+msgstr "Покажи напредъка в проценти (напр.: 70%)"
+
+#: wpvq-settings-page.php:487
+msgid "Show progress page per page (ex: page 7/10)"
+msgstr "Покажи напредъка измерен в страници (напр.: страница 7/10)"
+
+#: wpvq-settings-page.php:511
+msgid ""
+"With no pause, people won't see if they are right or wrong <strong>"
+"(TriviaQuiz only)</strong>."
+msgstr ""
+"Без пауза участниците няма да видят дали са отговорили правилно или грешно "
+"<strong>(само при Тестове за факти)</strong>."
+
+#: wpvq-settings-page.php:521
+msgid ""
+"You can <strong>put some ads above and below each of your quizzes</strong>. "
+"Just copy and paste the HTML code of your ads in the field below."
+msgstr ""
+"<strong>Можете да публикувате обяви под и над всеки от Вашите тестове."
+"</strong> Просто въведете HTML кода за обявите в полето отдолу."
+
+#: wpvq-settings-page.php:523
+msgid ""
+"If you don't want to display ads for some quizzes, put their ID in the \"no "
+"ads\" field (comma separated)."
+msgstr ""
+"Ако не желаете да показвате обяви при някои тестове, въведете техния "
+"идентификатор (ID) в полето наречено „без обяви“. При повече от един "
+"идентификатор, ги отделете със запетаи."
+
+#: wpvq-settings-page.php:525
+msgid ""
+"<strong>You can also configure specific content quiz by quiz</strong>, when "
+"building your quiz. Look for the “ads and content” settings section on the "
+"building page."
+msgstr ""
+"<strong>Можете да конфигурирате определено съдържание индивидуално за всеки "
+"тест</strong> в процеса на изграждането му. Използвайте настройките за "
+"„Обяви и съдържание“ на страницата за изграждане. "
+
+#: wpvq-settings-page.php:585
+msgid ""
+"To enable the Facebook share button, you have to create a Facebook App with "
+"your Facebook account. Don't panic, <strong>it's VERY easy</strong>."
+msgstr ""
+"За да активирате бутона за споделяне във Фейсбук, създайте Фейсбук "
+"приложение (Facebook App) чрез своя профил там. Не изпадайте в паника, "
+"<strong>МНОГО е лесно</strong>."
+
+#: wpvq-settings-page.php:587
+msgid "Click here to understand how to create a Facebook App."
+msgstr ""
+"Кликнете тук, за да разберете как да създадете приложение във Фейсбук "
+"(Facebook App)."
+
+#: wpvq-settings-page.php:605
+msgid "We do not recommend it, check this box if you know what you are doing."
+msgstr ""
+"Не го препоръчваме, така че кликнете тази кутийка, за да потвърдите, че "
+"знаете какво правите. "
+
+#: wpvq-settings-page.php:616
+msgid ""
+"Check if FB SDK is already included on your site. Ignore it if you don't "
+"understand."
+msgstr ""
+"Проверете дали FB SDK е вече включено в сайта Ви. Оставете тази стъпка, ако "
+"не разбирате. "
+
+#: wpvq-settings-page.php:625
+msgid "What share buttons do you want to display below the quiz results?"
+msgstr "Кои бутони за споделяне желаете да покажете под тестовите резултати? "
+
+#: wpvq-settings-page.php:627
+msgid ""
+"If you don't want to display share buttons under a particular quiz, you can "
+"disable them when you create your quiz."
+msgstr ""
+"Ако не желаете да показвате бутони за споделяне под определен тест, можете "
+"да ги деактивирате, когато го създавате. "
+
+#: wpvq-settings-page.php:666
+msgid ""
+"Configure share box content for Facebook and Twitter, when people share your "
+"quizzes. "
+msgstr ""
+"Конфигурирайте съдържанието на кутията за споделяне за Фейсбук и Туитър, "
+"което ще се използва, когато хора споделят Вашите тестове. "
+
+#: wpvq-settings-page.php:668
+msgid ""
+"Unfortunately, <strong>Google+ does not let us customize the text</strong> "
+"when sharing."
+msgstr ""
+"За съжаление, <strong>Google+ не ни позволява да редактираме текста</strong>,"
+" когато споделяме. "
+
+#: wpvq-settings-page.php:670
+msgid "will be replaced by the final result"
+msgstr "ще бъде заменено от крайния резултат"
+
+#: wpvq-settings-page.php:671
+msgid "will be replaced by the personality description"
+msgstr "ще бъде заменено от описание на индивидуалност"
+
+#: wpvq-settings-page.php:672 wpvq-settings-page.php:720
+msgid "will be replaced by the number of questions"
+msgstr "ще бъде заменено от броя на въпросите"
+
+#: wpvq-settings-page.php:673 wpvq-settings-page.php:721
+msgid "will be replaced by the name of your quiz"
+msgstr "ще бъде заменено от заглавието на Вашия тест"
+
+#: wpvq-settings-page.php:716
+msgid "Same as the previous section, but for trivia quiz only."
+msgstr "Също като предишната секция, но само за тест от типа Тестове за факти."
+
+#: wpvq-settings-page.php:718
+msgid "will be replaced by the final score"
+msgstr "ще бъде заменен от крайния резултат"
+
+#: wpvq-settings-page.php:719
+msgid "will be replaced by the appreciation"
+msgstr "ще бъде заменено от оценката"
+
+#: wpvq-settings-page.php:766
+msgid ""
+"To enable auto-update (very recommended), you have to put your Envato "
+"Purchase Code here."
+msgstr ""
+"За да активирате автоматично подновяване (много препоръчително), въведете "
+"Вашия код за покупка от Енвато (Envato Purchase Code) тук. "
+
+#: wpvq-settings-page.php:768
+msgid "Click here to understand how to get your purchase code."
+msgstr "Кликнете тук, за да разберете как да получите кода си за покупка. "
+
+#: wpvq-settings-page.php:784
+msgid "Complex or very specific settings. Ignore them if you don't need them."
+msgstr ""
+"Комплексни или много специфични настройки. Оставете ги, ако няма нужда да ги "
+"ползвате. "
+
+#: wpvq-settings-page.php:793
+msgid ""
+"Do not resize gif automatically on your quizzes (resize destroyes the "
+"animation)"
+msgstr ""
+"Не променяйте автоматично големината на GIF изображенията в даден тест, "
+"защото това блокира тяхната анимация. "
+
+#: wpvq-settings-page.php:804
+msgid ""
+"Display links instead of pictures when building a quiz (faster to load for "
+"big quizzes)"
+msgstr ""
+"Покажи линкове вместо изображения при изграждане на тест (по-бързо зареждане "
+"при големи тестове)"
+
+#: wpvq-settings-page.php:815
+msgid "Check this box if you want to disable the anti-minify protection system"
+msgstr ""
+"Кликнете тази кутийка, ако искате да деактивирате анти-минимизиращата "
+"система за защита "
+
+#: wpvq-settings-page.php:826
+msgid "Disable players logs, except when you ask a firstname/e-mail"
+msgstr "Деактивирайте данните на участниците, освен когато изисквате име/имейл"
+
+#: wpvq-settings-page.php:886
+msgid "Need some help ?"
+msgstr "Имате нужда от помощ?"
+
+#: wpvq-settings-page.php:898 wp-viral-quiz.php:381 wp-viral-quiz.php:381 
+#: views/WPVQAddQuizz.php:58 views/WPVQAddQuizz.php:70
+msgid "Settings"
+msgstr "Настройки"
+
+#: wpvq-settings-page.php:903
+msgid "Settings updated."
+msgstr "Настройките са обновени. "
+
+#: wpvq-settings-page.php:919
+msgid "General"
+msgstr "Общи настройки"
+
+#: wpvq-settings-page.php:920
+msgid "Ads Manager"
+msgstr "Настройки на обявите"
+
+#: wpvq-settings-page.php:921
+msgid "Configure Facebook"
+msgstr "Конфигуриране на Фейсбук"
+
+#: wpvq-settings-page.php:922
+msgid "Configure Sharing"
+msgstr "Конфигуриране на споделянето"
+
+#: wpvq-settings-page.php:926
+msgid "Multipages Quizzes"
+msgstr "Тестове с мулти-страници"
+
+#: wpvq-settings-page.php:927
+msgid "Customise Personality Quizzes"
+msgstr "Индивидуални промени при Тестове за индивидуалност"
+
+#: wpvq-settings-page.php:928
+msgid "Customise Trivia Quizzes"
+msgstr "Индивидуални промени при Тестове за факти"
+
+#: wpvq-settings-page.php:932
+msgid "Enable Auto-update"
+msgstr "Активирай автоматично обновяване"
+
+#: wp-viral-quiz.php:54
+#, php-format
+msgid "I'm %%personality%%"
+msgstr "Аз съм %%personality%%"
+
+#: wp-viral-quiz.php:55 wp-viral-quiz.php:56
+#, php-format
+msgid "I'm %%personality%%, and you ?"
+msgstr "Аз съм %%personality%%, а Вие? "
+
+#: wp-viral-quiz.php:59
+#, php-format
+msgid "I got %%score%% of %%total%% right"
+msgstr "Отговорихте правилно на %%score%% от %%total%% възможни"
+
+#: wp-viral-quiz.php:60 wp-viral-quiz.php:61
+#, php-format
+msgid "I got %%score%% of %%total%% right, and you ?"
+msgstr "Отговорих на %%score%% от %%total%% правилно, а Вие?"
+
+#: wp-viral-quiz.php:72
+msgid "SOMETHING NEW is happening with WP Viral Quiz !"
+msgstr "НЕЩО НОВО се случва с WP Viral Quiz!"
+
+#: wp-viral-quiz.php:74
+msgid ""
+"Discover the <strong>new \"Awesome Addons\" page</strong>, and add new "
+"features to your quizzes."
+msgstr ""
+"Запознайте се с новата страница, наречена „Страхотни добавки“ и добавете "
+"нова функционалност към Вашите тестове. "
+
+#: wp-viral-quiz.php:78
+msgid "Cool, hide this message and show me !"
+msgstr "Добре, скрий това съобщение и ми покажи."
+
+#: wp-viral-quiz.php:382 wp-viral-quiz.php:382
+msgid "Players"
+msgstr "Участници"
+
+#: wp-viral-quiz.php:383 wp-viral-quiz.php:383 views/WPVQShowAddons.php:5
+msgid "Awesome Addons"
+msgstr "Страхотни добавки"
+
+#: wp-viral-quiz.php:415
+msgid ""
+"Some unsaved settings will be lost. Do you really want to leave without "
+"saving ?"
+msgstr ""
+"Някои незапазени настройки ще бъдат изгубени. Наистина ли искате да излезете "
+"преди да сте запазили?"
+
+#: wp-viral-quiz.php:443
+msgid ""
+"Some changes have been made. Do you really want to close the page without "
+"saving ?"
+msgstr ""
+"Направени са промени. Наистина ли искате да затворите страницата без да "
+"запазите? "
+
+#: wp-viral-quiz.php:444
+msgid "You have to give a name to your quiz please !"
+msgstr "Моля въведете заглавие на Вашия тест. "
+
+#: wp-viral-quiz.php:445
+msgid "You have to set a score condition for each appreciations !"
+msgstr "Моля въведете изискване за резултат при всяка оценка коментар. "
+
+#: wp-viral-quiz.php:446
+msgid ""
+"You must create some personalities to associate each answers with a "
+"personality. To create a personality, go to the Personalities Tab."
+msgstr ""
+"Необходимо е да създадете индивидуалности, които да свържете с всеки отговор."
+" За да създадете индивидуалност, отворете раздела, наречен Индивидуалности. "
+
+#: controller/WPVQShortcode.php:84
+msgid "Loading"
+msgstr "Зареждане"
+
+#: controller/WPVQDeletePlayer.php:26
+msgid "This player/quiz doesn't exist."
+msgstr "Този играч/тест не съществува. "
+
+#: controller/WPVQExportQuizz.php:15 controller/WPVQDeleteQuizz.php:14
+msgid "You can't do that ! Sorry."
+msgstr "Съжаляваме, но не можете да направите това. "
+
+#: controller/WPVQExportQuizz.php:33
+msgid "Error during export."
+msgstr "Грешка при експортиране. "
+
+#: controller/WPVQExportQuizz.php:37 controller/WPVQDuplicateQuizz.php:24 
+#: controller/WPVQDeleteQuizz.php:24
+msgid "This quiz doesn't exist."
+msgstr "Този тест не съществува. "
+
+#: controller/WPVQDuplicateQuizz.php:14
+msgid "You can't do this ! Sorry."
+msgstr "Съжаляваме, но не можете да направите това. "
+
+#: controller/WPVQDuplicateQuizz.php:20
+msgid "Error during quiz duplication."
+msgstr "Грешка при създаване на дубликат на теста. "
+
+#: controller/WPVQDeleteQuizz.php:20
+msgid "Error during quiz deletion."
+msgstr "Грешка при изтриване на теста. "
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:4
+msgid "Personality"
+msgstr "Индивидуалност"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:4
+msgid "Personality name"
+msgstr "Име на индивидуалността"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:7
+msgid "Personality description :"
+msgstr "Описание на индивидуалността:"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:8 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:14
+msgid "Add a media"
+msgstr "Добавете медиен файл"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:13 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:19
+msgid "[shortcodes] allowed"
+msgstr "Кратките кодове [shortcodes] са позволени"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:19 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:51 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:69 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:24 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:43
+msgid "Do you really want to delete it ?"
+msgstr "Наистина ли искате да изтриете? "
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:19
+msgid "Delete this personality"
+msgstr "Изтрий тази индивидуалност"
+
+#: views/WPVQShowPlayers.php:7
+msgid "Players Database"
+msgstr "База данни с участници"
+
+#: views/WPVQShowPlayers.php:12
+msgid "Player has been removed."
+msgstr "Участникът беше изваден. "
+
+#: views/WPVQShowPlayers.php:18
+msgid "All players for this quiz have been removed."
+msgstr "Всички участници в този тест бяха извадени."
+
+#: views/WPVQShowPlayers.php:35 views/WPVQShowQuizzes.php:42
+msgid "Title"
+msgstr "Заглавие"
+
+#: views/WPVQShowPlayers.php:36 views/WPVQShowQuizzes.php:43
+msgid "Type"
+msgstr "Вид"
+
+#: views/WPVQShowPlayers.php:37 views/WPVQShowQuizzes.php:45
+msgid "Created on"
+msgstr "Създадено на "
+
+#: views/WPVQShowPlayers.php:38
+msgid "Number of players"
+msgstr "Брой участници"
+
+#: views/WPVQShowPlayers.php:52
+msgid "Get more data"
+msgstr "Осигурете повече информация"
+
+#: views/WPVQShowPlayers.php:56 views/WPVQAddQuizz.php:15 
+#: views/WPVQShowQuizzes.php:82
+msgid "Quiz"
+msgstr "Тест"
+
+#: views/WPVQShowPlayers.php:65 views/WPVQShowQuizzes.php:105
+msgid "You haven't created any quiz yet !"
+msgstr "Все още не сте създали тест. "
+
+#: views/WPVQShowPlayers.php:66 views/WPVQShowQuizzes.php:106
+msgid "Click on a \"<b>Create Button</b>\" just above to begin."
+msgstr "Кликнете „<b>Създай бутон</b>“ отгоре, за да започнете. "
+
+#: views/WPVQShowPlayers.php:75 views/WPVQShowPlayers.php:105 
+#: views/WPVQShowQuizzes.php:124
+msgid "Pages"
+msgstr "Страници"
+
+#: views/WPVQShowPlayers.php:90
+msgid "Total"
+msgstr "Общо"
+
+#: views/WPVQShowPlayers.php:90
+msgid "players"
+msgstr "участници"
+
+#: views/WPVQShowPlayers.php:91
+msgid "Export the table to a CSV file"
+msgstr "Експортирай таблицата като CSV файл"
+
+#: views/WPVQShowPlayers.php:94
+msgid "Delete all players for this quiz"
+msgstr "Изтрий всички участници от теста"
+
+#: views/WPVQShowPlayers.php:121
+msgid "People"
+msgstr "Хора"
+
+#: views/WPVQShowPlayers.php:122
+msgid "Result"
+msgstr "Резултат"
+
+#: views/WPVQShowPlayers.php:123
+msgid "Date"
+msgstr "Дата"
+
+#: views/WPVQShowPlayers.php:124
+msgid "Meta"
+msgstr "Мета"
+
+#: views/WPVQShowPlayers.php:140
+msgid "Anonymous"
+msgstr "Анонимен"
+
+#: views/WPVQShowPlayers.php:145
+#, php-format
+msgid "%s ago"
+msgstr "преди %s"
+
+#: views/WPVQShowPlayers.php:168
+msgid "No one has played this quiz yet!"
+msgstr "Все още никой не е минавал този тест!"
+
+#: views/WPVQShowPlayers.php:178
+msgid "Informations about anonymous players :"
+msgstr "Информация за анонимни участници: "
+
+#: views/WPVQShowPlayers.php:179
+msgid ""
+"If your quiz asks for first name/email at the end, \"anonymous players\" are "
+"people which don't fill the form and leave the page."
+msgstr ""
+"Ако Вашият тест изисква име/имейл на края, „анонимни участници“ са хората, "
+"които не въвеждат тази информация и напускат страницата. "
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:15 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:15
+msgid "Answer :"
+msgstr "Отговор: "
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:18
+msgid "How many points this answer gives to each personality ?"
+msgstr "Колко точки присъжда този отговор на всяка индивидуалност? "
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:34 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:26
+msgid "Add an image to illustrate this answer"
+msgstr "Добавете изображение, за да илюстрирате този отговор"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:37 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:38 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:43 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:29
+msgid "Delete this picture"
+msgstr "Изтрий тази картинка"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:51 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:43
+msgid "Delete this answer"
+msgstr "Изтрий този отговор"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:25 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:25
+msgid "HTML tags + [shortcodes] allowed"
+msgstr "Позволяват се HTML инструкции (HTML tags) и кратки кодове [shortcodes]"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:50 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:50
+msgid "Add a new answer"
+msgstr "Добави нов отговор"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:50
+msgid "to this question"
+msgstr "на този въпрос"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:61 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:61
+msgid "Do you want to add a page after this question ?"
+msgstr "Желаете ли да добавите страница след този въпрос? "
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:71
+msgid "Do you want to give an explaination when people answer?"
+msgstr "Желаете ли да добавите обяснение, след като участника отговори? "
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:84 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:69
+msgid "Delete this question"
+msgstr "Изтрий този въпрос"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:87 
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:71
+msgid "Ranking"
+msgstr "Класиране"
+
+#: views/WPVQShortcode.php:172
+msgid "Start the quiz!"
+msgstr "Начало на теста"
+
+#: views/WPVQShortcode.php:289
+msgid "Correct!"
+msgstr "Правилно!"
+
+#: views/WPVQShortcode.php:290
+msgid "Wrong!"
+msgstr "Грешка. "
+
+#: views/WPVQShortcode.php:298
+msgid "Continue >>"
+msgstr "Продължете »"
+
+#: views/WPVQShortcode.php:313
+msgid "Share the quiz to show your results !"
+msgstr "Споделете теста, за да покажете резултатите си. "
+
+#: views/WPVQShortcode.php:341
+msgid "Just tell us who you are to view your results !"
+msgstr "<strong>Къде да изпратим Вашия резултат?</strong>"
+
+#: views/WPVQShortcode.php:348
+msgid "Your first name :"
+msgstr "Вашите <strong>име и фамилия</strong>:"
+
+#: views/WPVQShortcode.php:357
+msgid "Your e-mail address :"
+msgstr "Вашият <strong>имейл адрес</strong>:"
+
+#: views/WPVQShortcode.php:368
+msgid "Show my results >>"
+msgstr "Покажете резултата ми »"
+
+#: views/WPVQShortcode.php:372
+msgid "Ignore & see my results >>"
+msgstr "Игнорирай и виж моите резултати. »"
+
+#: views/WPVQShortcode.php:412 views/WPVQShortcodeResults.php:193
+msgid "Share your results"
+msgstr "Споделете резултатите си"
+
+#: views/WPVQShortcode.php:495 views/WPVQShortcodeResults.php:264
+msgid "↺ &nbsp; PLAY AGAIN !"
+msgstr "↺ &nbsp; ЗАПОЧНИ ТЕСТА ОТНАЧАЛО"
+
+#: views/WPVQShortcode.php:532
+msgid "This quiz has been created with"
+msgstr "Този тест е създаден с"
+
+#: views/WPVQShortcode.php:567
+msgid "You have to give your e-mail to see your results."
+msgstr "Моля попълнете имейл адреса си, за да видите резултата си. "
+
+#: views/WPVQShortcode.php:568
+msgid "You have to give your nickname to see your results."
+msgstr ""
+"Необходимо е да въведете потребителското си име, за да видите резултатите се."
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:34
+msgid "Add a cover image to illustrate this question"
+msgstr "Добавете изображение, за да илюстрирате този въпрос"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:50
+msgid "for this question"
+msgstr "за този въпрос"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:10
+msgid "Current:"
+msgstr "Настоящ:"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:11 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:12 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:18
+msgid "point"
+msgstr "точка"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:13 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:14 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:15 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:16 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:19 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:20 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:21 
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:22 
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:10
+msgid "points"
+msgstr "точки"
+
+#: views/WPVQAddQuizz.php:9
+msgid "Build a new"
+msgstr "Състави нов"
+
+#: views/WPVQAddQuizz.php:11
+msgid "Edit your"
+msgstr "Редактирайте Вашия"
+
+#: views/WPVQAddQuizz.php:22
+msgid "Title :"
+msgstr "Заглавие:"
+
+#: views/WPVQAddQuizz.php:26
+msgid "You can change the title in the Settings Tab."
+msgstr "Можете да промените заглавието в раздела за настройки."
+
+#: views/WPVQAddQuizz.php:35
+msgid "Quiz has been updated."
+msgstr "Тестът бе обновен."
+
+#: views/WPVQAddQuizz.php:56
+msgid "Appreciations"
+msgstr "Оценки"
+
+#: views/WPVQAddQuizz.php:56
+msgid "Personalities"
+msgstr "Индивидуалности"
+
+#: views/WPVQAddQuizz.php:57
+msgid "Questions/answers"
+msgstr "Въпроси/отговори"
+
+#: views/WPVQAddQuizz.php:70
+msgid "Configure your quiz like a boss"
+msgstr "Конфигурирайте теста си като спец"
+
+#: views/WPVQAddQuizz.php:72
+msgid "Enable some exciting features and improve your quiz's virality !"
+msgstr ""
+"Активирайте някои вълнуващи функционалности и подобрете виралността на Вашия "
+"тест."
+
+#: views/WPVQAddQuizz.php:76
+msgid "Display & Gameplay"
+msgstr "Дисплей и геймплей"
+
+#: views/WPVQAddQuizz.php:82
+msgid "The Quiz's Title"
+msgstr "Заглавие на теста"
+
+#: views/WPVQAddQuizz.php:85
+msgid "Type your quiz's title here"
+msgstr "Въведете заглавието на Вашия тест тук"
+
+#: views/WPVQAddQuizz.php:90
+msgid "What skin do you want"
+msgstr "Какъв дизайн избирате"
+
+#: views/WPVQAddQuizz.php:94
+msgid "The BuzzFeed Skin"
+msgstr "Дизайн BuzzFeed"
+
+#: views/WPVQAddQuizz.php:95
+msgid "A Modern Flat Skin"
+msgstr "Модерен плосък дизайн"
+
+#: views/WPVQAddQuizz.php:96
+msgid "Custom Skin (use wpvq-custom.css in your root theme dir.)"
+msgstr ""
+"Ваш индивидуализиран дизайн (use wpvq-custom.css in your root theme dir.)"
+
+#: views/WPVQAddQuizz.php:103
+msgid "Display Random Questions ?"
+msgstr "Покажи въпросите в разбъркана последователност всеки път?"
+
+#: views/WPVQAddQuizz.php:108
+msgid "and show only"
+msgstr "и покажи само"
+
+#: views/WPVQAddQuizz.php:108
+msgid "questions (put 999 for \"all\")"
+msgstr "въпроси (въведете 999 за „всички“"
+
+#: views/WPVQAddQuizz.php:115
+msgid "Random order for answers ?"
+msgstr "Разбъркан ред за отговорите?"
+
+#: views/WPVQAddQuizz.php:120
+msgid "Yes, shuffle the answers for each question"
+msgstr "Да, разбъркай отговорите за всеки въпрос"
+
+#: views/WPVQAddQuizz.php:127
+msgid "\"Start quiz\" button ?"
+msgstr "Бутон за започване на теста?"
+
+#: views/WPVQAddQuizz.php:135
+msgid "User need to click a button to start the quiz"
+msgstr "Участника трябва да натисне бутона, за да започне теста"
+
+#: views/WPVQAddQuizz.php:142
+msgid "\"Play again\" button ?"
+msgstr "Бутон „ЗАПОЧНИ ТЕСТА ОТНАЧАЛО“"
+
+#: views/WPVQAddQuizz.php:147
+msgid "Display a \"Play Again\" button at the end of the quiz"
+msgstr "Покажи бутона „ЗАПОЧНИ ТЕСТА ОТНАЧАЛО“ в края на теста"
+
+#: views/WPVQAddQuizz.php:154
+msgid "Redirect users at the end of the quiz ?"
+msgstr "Пренасочи участниците при завършване на теста?"
+
+#: views/WPVQAddQuizz.php:159
+msgid "More info here."
+msgstr "Повече информация ще намерите тук."
+
+#: views/WPVQAddQuizz.php:168
+msgid "Hide right/wrong answers ?"
+msgstr "Скрий правилни/грешни отговори?"
+
+#: views/WPVQAddQuizz.php:173
+msgid "Hide right/wrong answsers until the end of the quiz"
+msgstr "Скрий правилни/грешни отговори до края на теста"
+
+#: views/WPVQAddQuizz.php:182
+msgid "Refresh browser on page changes"
+msgstr "Освежи браузера при при преминаване на друга страница"
+
+#: views/WPVQAddQuizz.php:190
+msgid "Refresh browser when changing quiz page (cool for pageviews++)"
+msgstr ""
+"Освежи браузера при преминаване на друга страница от теста (добра практика "
+"за увеличаване на статистиката Ви за брой посещения на страница)"
+
+#: views/WPVQAddQuizz.php:198
+msgid "\"Continue\" button between pages"
+msgstr "Бутон „Продължи“ (към следващата страница)"
+
+#: views/WPVQAddQuizz.php:206
+msgid "Force user to click on \"Continue\" between each page"
+msgstr ""
+"Изисквай участника да кликне „Продължи“, за да премине на следваща страница"
+
+#: views/WPVQAddQuizz.php:216
+msgid "Virality"
+msgstr "Виралност"
+
+#: views/WPVQAddQuizz.php:222
+msgid "People have to share the quiz to see their results :"
+msgstr "Участниците трябва да споделят теста, за да видят резултатите си:"
+
+#: views/WPVQAddQuizz.php:227
+msgid "Yes, they have to share on Facebook"
+msgstr "Да, трябва да споделят във Фейсбук"
+
+#: views/WPVQAddQuizz.php:234
+msgid "Share buttons"
+msgstr "Бутони за споделяне"
+
+#: views/WPVQAddQuizz.php:239
+msgid "Display share buttons at the end of the quiz"
+msgstr "Покажи бутоните за споделяне в края на теста"
+
+#: views/WPVQAddQuizz.php:246
+msgid "Promote the plugin"
+msgstr "Кажете на други за това разширение"
+
+#: views/WPVQAddQuizz.php:264
+msgid "Marketing Services"
+msgstr "Маркетинг услуги"
+
+#: views/WPVQAddQuizz.php:269
+msgid "Ask player informations at the end"
+msgstr "Изискайте информация за участника на края на теста"
+
+#: views/WPVQAddQuizz.php:279
+msgid "Capture e-mails"
+msgstr "Изискайте имейл адреси"
+
+#: views/WPVQAddQuizz.php:284
+msgid "People have to give their e-mail"
+msgstr "Участниците трябва да дадат имейл адресите си"
+
+#: views/WPVQAddQuizz.php:291
+msgid "Capture names"
+msgstr "Изискайте имена"
+
+#: views/WPVQAddQuizz.php:296
+msgid "People have to give their first name"
+msgstr "Участниците трябва да дадат името си"
+
+#: views/WPVQAddQuizz.php:303
+msgid "Is it optional ?"
+msgstr "Това подлежи ли на избор?"
+
+#: views/WPVQAddQuizz.php:308
+msgid "People can ignore"
+msgstr "Участниците могат да пропуснат даването на име и имейл"
+
+#: views/WPVQAddQuizz.php:317
+msgid "Enable Mailchimp Synchronisation"
+msgstr "Активирай синхронизация с MailChimp"
+
+#: views/WPVQAddQuizz.php:319 views/WPVQAddQuizz.php:439
+msgid "(Learn to configure) "
+msgstr "(Научете как да конфигурирате)"
+
+#: views/WPVQAddQuizz.php:327 views/WPVQAddQuizz.php:457
+msgid "API Key"
+msgstr "API ключ (API Key)"
+
+#: views/WPVQAddQuizz.php:337 views/WPVQAddQuizz.php:412 
+#: views/WPVQAddQuizz.php:467
+msgid "List ID"
+msgstr "Идентификатор на списъка (List ID)"
+
+#: views/WPVQAddQuizz.php:347
+msgid "Firstname Field name"
+msgstr "Поле за малко име"
+
+#: views/WPVQAddQuizz.php:351 views/WPVQAddQuizz.php:361 
+#: views/WPVQAddQuizz.php:426 views/WPVQAddQuizz.php:481 
+#: views/WPVQAddQuizz.php:491
+msgid "Optional"
+msgstr "По избор"
+
+#: views/WPVQAddQuizz.php:357 views/WPVQAddQuizz.php:422
+msgid "Result Field name"
+msgstr "Поле за резултат"
+
+#: views/WPVQAddQuizz.php:367
+msgid "Double Opt-In ?"
+msgstr "Двойно потвърждение за включване (double opt-in)?"
+
+#: views/WPVQAddQuizz.php:382
+msgid "Enable Aweber Synchronisation"
+msgstr "Активирай синхронизация с Aweber"
+
+#: views/WPVQAddQuizz.php:384
+msgid "(Learn to configure)"
+msgstr "(Научете как да конфигурирате)"
+
+#: views/WPVQAddQuizz.php:392
+msgid "Auth Code"
+msgstr "Auth код (Auth dode)"
+
+#: views/WPVQAddQuizz.php:402
+msgid "Waiting for auth code..."
+msgstr "Чакаме auth кода"
+
+#: views/WPVQAddQuizz.php:437
+msgid "Enable ActiveCampaign Synchronisation"
+msgstr "Активирай синхронизация на активната кампания"
+
+#: views/WPVQAddQuizz.php:447
+msgid "API URL Endpoint"
+msgstr "API URL Endpoint"
+
+#: views/WPVQAddQuizz.php:477
+msgid "Contact tags (comma separated)"
+msgstr "Тагове за контакти (отделени със запетаи)"
+
+#: views/WPVQAddQuizz.php:487
+msgid "Result Field name (without % around)"
+msgstr "Поле за резултат (без %)"
+
+#: views/WPVQAddQuizz.php:506
+msgid "Ads & Content Management"
+msgstr "Управление на обяви и съдържание"
+
+#: views/WPVQAddQuizz.php:510
+msgid "You can also configure global ads & content (for all your quizzes)"
+msgstr ""
+"Можете също да конфигурирате глобални настройки за обяви и съдържание (за "
+"всички Ваши тестове) "
+
+#: views/WPVQAddQuizz.php:510
+msgid "using the settings page"
+msgstr "използвайки страницата за настройки"
+
+#: views/WPVQAddQuizz.php:511
+msgid ""
+"The settings below don't overwrite global settings. They run both "
+"simultaneously."
+msgstr ""
+"Настройките отдолу не променят глобалните настройки, а действат паралелно с "
+"тях. "
+
+#: views/WPVQAddQuizz.php:517
+msgid "Add custom ads/content around this quiz"
+msgstr "Добавете индивидуализирани обяви/съдържание към този тест"
+
+#: views/WPVQAddQuizz.php:527
+msgid "HTML + [shortcodes] allowed"
+msgstr "Позволяват се HTML + кратки кодове [shortcodes]"
+
+#: views/WPVQAddQuizz.php:536
+msgid "Just before the quiz"
+msgstr "Непосредствено преди теста"
+
+#: views/WPVQAddQuizz.php:546
+msgid "Just after the quiz"
+msgstr "Непосредствено след теста"
+
+#: views/WPVQAddQuizz.php:586
+msgid "Save the configuration"
+msgstr "Запази конфигурацията"
+
+#: views/WPVQAddQuizz.php:595 views/WPVQAddQuizz.php:639
+msgid "Step"
+msgstr "Стъпка"
+
+#: views/WPVQAddQuizz.php:595 views/WPVQAddQuizz.php:597
+msgid "Add some questions & answers to your quiz"
+msgstr "Добавете въпроси и отговори към теста си"
+
+#: views/WPVQAddQuizz.php:601
+msgid ""
+"You can add picture for each question and answer, it makes your quiz more "
+"fun and viral."
+msgstr ""
+"Можете да добавите изображение към всеки въпрос и отговор, което ще направи "
+"теста Ви по-забавен и вирален."
+
+#: views/WPVQAddQuizz.php:604
+msgid "Protip To Make The Perfect Quiz :"
+msgstr "Професионален съвет за създаването на съвършения тест:"
+
+#: views/WPVQAddQuizz.php:605
+msgid ""
+"If you use pictures to illustrate the answers, each picture should be at "
+"least 300px * 300px."
+msgstr ""
+"Ако използвате изображения, за да илюстрирате отговорите, всяка картинка "
+"трябва да бъде поне 300 на 300 пиксела."
+
+#: views/WPVQAddQuizz.php:616
+msgid "Add a new question"
+msgstr "Добави нов въпрос"
+
+#: views/WPVQAddQuizz.php:630
+msgid "Save the questions"
+msgstr "Запази въпросите"
+
+#: views/WPVQAddQuizz.php:639
+msgid "Create some personalities for your quiz"
+msgstr "Създайте индивидуалности за Вашия тест"
+
+#: views/WPVQAddQuizz.php:641
+msgid "If you put a picture in your personality descriptions"
+msgstr "Ако добавите изображение към описанията на Вашите индивидуалности"
+
+#: views/WPVQAddQuizz.php:642 views/WPVQAddQuizz.php:661
+msgid "it will be used in the Facebook share box."
+msgstr "то ще бъде използвано в кутията за споделяне на Фейсбук."
+
+#: views/WPVQAddQuizz.php:643 views/WPVQAddQuizz.php:662
+msgid "See what it means."
+msgstr "Вижте какво значи това."
+
+#: views/WPVQAddQuizz.php:651
+msgid "Add a new personality"
+msgstr "Добавете нова индивидуалност"
+
+#: views/WPVQAddQuizz.php:657
+msgid "Quiz results depending on the score"
+msgstr "Тестови резултати според сбора точки"
+
+#: views/WPVQAddQuizz.php:659
+msgid "Write something to people depending on their score."
+msgstr "Напишете нещо за участниците базирано на техния резултат. "
+
+#: views/WPVQAddQuizz.php:660
+msgid "If you put a picture in an appreciation"
+msgstr "Ако добавите изображение в оценка"
+
+#: views/WPVQAddQuizz.php:667
+msgid "An example"
+msgstr "Един пример"
+
+#: views/WPVQAddQuizz.php:667
+msgid "for a quiz with 10 questions"
+msgstr "за тест с 10 въпроса"
+
+#: views/WPVQAddQuizz.php:670
+msgid "Less than 4 points"
+msgstr "По-малко от 4 точки"
+
+#: views/WPVQAddQuizz.php:670
+msgid "you are bad. Just bad."
+msgstr "Много зле. Просто ужас."
+
+#: views/WPVQAddQuizz.php:671
+msgid "Less than 8 points"
+msgstr "По-малко от 8 точки"
+
+#: views/WPVQAddQuizz.php:671
+msgid "Hum okay, not bad!"
+msgstr "Хмм, горе долу става."
+
+#: views/WPVQAddQuizz.php:672
+msgid "Less than 10 points"
+msgstr "По-малко от 10 точки"
+
+#: views/WPVQAddQuizz.php:672
+msgid "Really nice, good game."
+msgstr "Много добре."
+
+#: views/WPVQAddQuizz.php:673
+msgid "Less than 11 points"
+msgstr "По-малко от 11 точки"
+
+#: views/WPVQAddQuizz.php:673
+msgid "Perfect! You are a real rockstar!"
+msgstr "Съвършено! Ти си истинска рок звезда!"
+
+#: views/WPVQAddQuizz.php:682
+msgid "Add a new appreciation"
+msgstr "Добави нова оценка"
+
+#: views/WPVQAddQuizz.php:697
+msgid "Save the appreciations"
+msgstr "Запази оценките"
+
+#: views/WPVQAddQuizz.php:707
+msgid "Shortcuts :"
+msgstr "Преки пътища (shortcuts):"
+
+#: views/WPVQAddQuizz.php:710
+msgid "Minimize all the questions"
+msgstr "Минимизирай всички въпроси"
+
+#: views/WPVQAddQuizz.php:711
+msgid "Expand all the questions"
+msgstr "Разтвори всички въпроси"
+
+#: views/WPVQAddQuizz.php:713
+msgid "Scroll to the begining"
+msgstr "Придвижи се към началото"
+
+#: views/WPVQAddQuizz.php:714
+msgid "Scroll to the end"
+msgstr "Придвижи се към края"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:9
+msgid "Less than"
+msgstr "По-малко от"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:10
+msgid "x"
+msgstr "х"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:10
+msgid "(excluded)"
+msgstr "(изключено)"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:13
+msgid "Appreciation :"
+msgstr "Оценка:"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:24
+msgid "Delete this appreciation"
+msgstr "Изтрий тази оценка"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:16
+msgid "The ...."
+msgstr "Това..."
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:18
+msgid "This answer is the right answer"
+msgstr "Това е правилния отговор!"
+
+#: views/WPVQShowAddons.php:12
+msgid ""
+"You can get awesome addons for WP Viral Quiz, and add new features to your "
+"site. If you need support, <a href=\"https://www.ohmyquiz.io/support/\" "
+"target=\"_blank\">contact us</a>."
+msgstr ""
+"Можете да получите страхотни добавки за WP Viral Quiz, с които да обогатите "
+"функционалността на сайта си. Ако имате нужда от техническа поддръжка, <a "
+"href=\"https://www.ohmyquiz.io/support/\" target=\"_blank\">contact us</a>."
+
+#: views/WPVQShowAddons.php:20
+msgid ""
+"You need to <strong>put a valid Envato Purchase Code</strong> on the WP "
+"Viral Quiz settings page to access the awesome addons page."
+msgstr ""
+"Необходимо е да въведете <strong>валиден код за покупка от Енвато (Envato "
+"Purchase Code)</strong> на страницата за настройки на WP Viral Quiz, за да "
+"получите достъп до страницата за страхотни добавки."
+
+#: views/WPVQShowAddons.php:32
+msgid "WP Viral Quiz - Analytics"
+msgstr "WP Viral Quiz — статистика"
+
+#: views/WPVQShowAddons.php:38
+msgid "Track players on your site like a boss, with Google Analytics."
+msgstr ""
+"Анализирайте участниците във Вашия сайт като професионалист с Google "
+"Analytics."
+
+#: views/WPVQShowAddons.php:41
+msgid ""
+"See how many people play your quizzes, how many time they spend on your site,"
+" what do they do after a quiz, how many people shares on social media, etc."
+msgstr ""
+"Вижте колко хора правят Вашите тестове, колко време прекарват във сайта Ви, "
+"какво правят след теста, колко участници споделят в социалните медии и т.н."
+
+#: views/WPVQShowAddons.php:44
+msgid "Use each awesome features of Google Analytics to track your players."
+msgstr ""
+"Изпозвайте високо ефективната функционалност на Google Analytics, за да "
+"анализирате поведението на Вашите участници. "
+
+#: views/WPVQShowAddons.php:49 views/WPVQShowAddons.php:112
+msgid "The plugin is enabled on your blog."
+msgstr "Това разширение е активирано във Вашия блог. "
+
+#: views/WPVQShowAddons.php:53 views/WPVQShowAddons.php:116
+msgid "Configure the plugin"
+msgstr "Конфигурирай разширението"
+
+#: views/WPVQShowAddons.php:58 views/WPVQShowAddons.php:121
+msgid ""
+"Ho, it seems the plugin is installed on your blog <strong>but it's not "
+"enabled</strong>."
+msgstr ""
+"Ха! Изглежда разширението е инсталирано в блога Ви, но <strong>не е "
+"активирано</strong>."
+
+#: views/WPVQShowAddons.php:60 views/WPVQShowAddons.php:123
+msgid "Enable the plugin"
+msgstr "Активирай разширението"
+
+#: views/WPVQShowAddons.php:67 views/WPVQShowAddons.php:130
+msgid "Price :"
+msgstr "Цена:"
+
+#: views/WPVQShowAddons.php:67
+msgid "free, pay with a tweet"
+msgstr "такса, плати със съобщение в Туитър"
+
+#: views/WPVQShowAddons.php:76
+msgid "Thank you so much ! <3"
+msgstr "Благодаря много! <3"
+
+#: views/WPVQShowAddons.php:80 views/WPVQShowAddons.php:136
+msgid "Download the plugin"
+msgstr "Изтеглете разширението"
+
+#: views/WPVQShowAddons.php:84 views/WPVQShowAddons.php:140
+msgid ""
+"Once you have downloaded the file, install it like any other plugin <strong>"
+"and come back here</strong>."
+msgstr ""
+"След като изтеглите разширението, го инсталирайте като всяко друго "
+"разширение <strong>и се върнете обратно тук</strong>."
+
+#: views/WPVQShowAddons.php:98
+msgid "WP Viral Quiz - Save Answers"
+msgstr "WP Viral Quiz — Запази отговорите"
+
+#: views/WPVQShowAddons.php:104
+msgid "Save answers of each player when they end a quiz."
+msgstr "Запази отговорите на всеки участник, когато завърши теста. "
+
+#: views/WPVQShowAddons.php:107
+msgid "Learn more things about your players, by saving all their answers."
+msgstr "Научете повече за Вашите участници като запазите техните отговори."
+
+#: views/WPVQShowAddons.php:130
+msgid "free"
+msgstr "безплатно"
+
+#: views/WPVQShowQuizzes.php:11
+msgid "Create a \"Trivia\" Quiz"
+msgstr "Създайте тест за факти"
+
+#: views/WPVQShowQuizzes.php:12
+msgid "Create a \"Personality\" Quiz"
+msgstr "Създайте тест за индивидуалност"
+
+#: views/WPVQShowQuizzes.php:17
+msgid "Quiz has been duplicated."
+msgstr "Теста бе удвоен."
+
+#: views/WPVQShowQuizzes.php:23
+msgid "Quiz has been removed."
+msgstr "Теста бе премахнат."
+
+#: views/WPVQShowQuizzes.php:29
+msgid "A new quiz has been created."
+msgstr "Създаден бе нов тест."
+
+#: views/WPVQShowQuizzes.php:35
+msgid "The pack has been imported."
+msgstr "Пакета бе импортиран."
+
+#: views/WPVQShowQuizzes.php:44
+msgid "Author"
+msgstr "Автор"
+
+#: views/WPVQShowQuizzes.php:46
+msgid "Last Update"
+msgstr "Най-скорошно обновяване"
+
+#: views/WPVQShowQuizzes.php:47
+msgid "Shortcode"
+msgstr "Кратък код (shortcode)"
+
+#: views/WPVQShowQuizzes.php:75
+msgid "Update"
+msgstr "Редактиране"
+
+#: views/WPVQShowQuizzes.php:76
+msgid "Duplicate"
+msgstr "Удвояване"
+
+#: views/WPVQShowQuizzes.php:77
+msgid "Export"
+msgstr "Експортиране"
+
+#: views/WPVQShowQuizzes.php:78
+msgid "Delete"
+msgstr "Изтриване"
+
+#: views/WPVQShowQuizzes.php:96
+msgid ""
+"<strong>You can't publish a quiz by yourself</strong>. <br />Ask an admin."
+msgstr ""
+"<strong>Нямате достъп до опцията да публикувате теста</strong>. <br />"
+"Обърнете се към администратор. "
+
+#: views/WPVQShowQuizzes.php:115
+msgid "Upload one (or several) quiz pack"
+msgstr "Качете един или няколко тестови пакета"
+
+#: views/WPVQShowQuizzes.php:116
+msgid "Upload and import quiz pack(s)"
+msgstr "Качете и импортирайте един или повече тестови пакети"
+
+#: views/WPVQShowQuizzes.php:135
+msgid "Questions you may ask about this plugin"
+msgstr "Въпроси, които можете да имате по отношение на това разширение"
+
+#: views/WPVQShowQuizzes.php:137
+msgid "Do not forget to take a look at the official F.A.Q : "
+msgstr "Не забравяйте да погледнете най-често задаваните въпроси: "
+
+#: views/WPVQShowQuizzes.php:140
+msgid "What is a \"Trivia\" quiz ?"
+msgstr "Какво е „Тест за факти“?"
+
+#: views/WPVQShowQuizzes.php:142
+msgid ""
+"When playing a Trivia quiz, people have to give the right answer for each of "
+"your questions.\n"
+"\t\t\t\tAt the end, they can share their score with their friends on social "
+"media."
+msgstr ""
+"Когато правят „Тест за факти“, участниците трябва да дадат правилен отговор "
+"на всички Ваши въпроси. В края, могат да споделят резултата си с приятелите "
+"си в социалните медии. "
+
+#: views/WPVQShowQuizzes.php:145 views/WPVQShowQuizzes.php:158
+msgid "Examples : "
+msgstr "Примери: "
+
+#: views/WPVQShowQuizzes.php:148
+msgid "How Much Do You Actually Know About <code>#RandomTopic</code>"
+msgstr "Колко всъщност знаете за <code>#RandomTopic</code>"
+
+#: views/WPVQShowQuizzes.php:149
+msgid "Can You Answer These Basic <code>#RandomTopic</code> Questions?"
+msgstr ""
+"Можете ли да отговорите на тези основни въпроси на тема <code>"
+"#RandomTopic</code>?"
+
+#: views/WPVQShowQuizzes.php:150 views/WPVQShowQuizzes.php:163
+msgid "Click here to see an example."
+msgstr "Кликнете тук, за да видите пример."
+
+#: views/WPVQShowQuizzes.php:153
+msgid "What is a \"Personality\" quiz ?"
+msgstr "Какво е „Тест за индивидуалност“?"
+
+#: views/WPVQShowQuizzes.php:155
+msgid ""
+"By playing a Personality quiz, people have to answer questions about them, "
+"their behavor, what they like, etc. \n"
+"\t\t\t\t\tAt the end, you tell them which kind of people they are."
+msgstr ""
+"Правейки един „Тест за индивидуалност“, участниците отговарят на въпроси за "
+"самите тях, тяхното поведение, какво харесват и т.н. В края им казвате какъв "
+"тип хора са. "
+
+#: views/WPVQShowQuizzes.php:161
+msgid "Which <code>#RandomTVShow</code> Character Are You?"
+msgstr "Кой герой от <code>#RandomTVShow</code> сте Вие?"
+
+#: views/WPVQShowQuizzes.php:162
+msgid "What Does Your <code>#RandomStuff</code> Say About Your Personality?"
+msgstr "Какво казва Вашето <code>#RandomStuff</code> за Вашата индивидуалност?"
+
+#: views/WPVQShowQuizzes.php:166
+msgid "How to insert a quiz in my article or page ?"
+msgstr "Как да вградя тест в моята статия или страница?"
+
+#: views/WPVQShowQuizzes.php:168
+msgid ""
+"Just look at the <code>shortcode column</code> in the main table above. Copy "
+"and paste this shortcode to the content of your page/post, and save it ! The "
+"quiz will appear on the page."
+msgstr ""
+"Погледнете колоната за кратък код <code>shortcode column</code> в главната "
+"таблица отгоре. Копирайте този кратък код и го въведете в съдържанието на "
+"Вашата страница/блог статия и го запазете. Теста ще се появи на страницата. "
+
+#: views/WPVQShowQuizzes.php:171
+msgid "I need help / I need a new feature / I need a pizza"
+msgstr ""
+"Имам нужда от помощ. / Желая да бъде добавена нова функционалност. / Искам "
+"пица."
+
+#: views/WPVQShowQuizzes.php:173
+msgid ""
+"About the pizza, we have already eaten it, sorry. But if you need something "
+"else, feel free to contact us"
+msgstr ""
+"Пицата вече я хапнахме, съжалявам, но ако имате нужда от нещо друго, се "
+"свържете с нас "
+
+#: views/WPVQShowQuizzes.php:173
+msgid "by clicking here"
+msgstr "кликвайки тук"
+
+#: views/WPVQShowQuizzes.php:173
+msgid "in french or english"
+msgstr "на френски или английски"
+
+#. Name of the plugin
+msgid "WP Viral Quiz"
+msgstr "WP Viral Quiz"
+
+#. Description of the plugin
+msgid "Create awesome and viral quizzes on your blog, as Buzzfeed does."
+msgstr ""
+"Създайте страхотни вирални тестова за Вашия блог като тези на BuzzFeed."
+
+#. URI of the plugin
+msgid "https://www.ohmyquiz.io"
+msgstr "https://www.ohmyquiz.io"
+
+#. Author of the plugin
+msgid "Institut Pandore"
+msgstr "Institut Pandore"
+
+#. Author URI of the plugin
+msgid "https://www.institut-pandore.com"
+msgstr "https://www.institut-pandore.com"

@@ -1,0 +1,470 @@
+# Translation of Plugins - WP HTML Mail &#8211; Email Designer - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - WP HTML Mail &#8211; Email Designer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-04 15:45:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - WP HTML Mail &#8211; Email Designer - Stable (latest release)\n"
+
+#: includes/class-mailbuilder.php:131
+msgid "Add attachments"
+msgstr "Aggiungi allegati"
+
+#: includes/class-mailbuilder.php:97
+msgid "Attach files"
+msgstr "Allega file"
+
+#: wp-html-mail.php:52
+msgid "<strong>Warning:</strong> To use WP HTML Mail please update your PHP version to 5.6 or higher in your hosting admin panel."
+msgstr "<strong>Avviso:</strong> Per utilizzare WP HTML Mail aggiorna la tua versione PHP a 5,6 o superiore nel vostro pannello di admin hosting."
+
+#. Author URI of the plugin/theme
+msgid "http://etzelstorfer.com/en/"
+msgstr "http://etzelstorfer.com/en/"
+
+#. Author of the plugin/theme
+msgid "Hannes Etzelstorfer"
+msgstr "Hannes Etzelstorfer"
+
+#. Description of the plugin/theme
+msgid "Create your own professional email design for all your outgoing WordPress emails"
+msgstr "Crea il tuo design di email professionale per tutte le tue email di WordPress"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp-html-mail.com/"
+msgstr "http://wp-html-mail.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP HTML Mail"
+msgstr "WP HTML Mail"
+
+#: views/admin/single-plugin.php:35
+msgid "install"
+msgstr "installa"
+
+#: views/admin/single-plugin.php:33
+msgid "is currently not installed."
+msgstr "non è attualmente installato."
+
+#: views/admin/single-plugin.php:27
+msgid "Install WP HTML Mail for"
+msgstr "Installa WP HTML Mail per"
+
+#: views/admin/single-plugin.php:24
+msgid "Overwrite sender"
+msgstr "Sovrascrivere il mittente"
+
+#: views/admin/single-plugin.php:20
+msgid "Use template"
+msgstr "Usa modello"
+
+#: views/admin/settings.php:85
+msgid "Your message has been sent."
+msgstr "Il tuo messaggio è stato inviato."
+
+#: views/admin/settings.php:83
+msgid "Email sent"
+msgstr "Email inviata"
+
+#: views/admin/settings.php:82
+msgid "send test mail"
+msgstr "invia una email di prova"
+
+#: views/admin/settings.php:79
+msgid "Send a test mail"
+msgstr "Invia una mail di prova"
+
+#: views/admin/settings.php:67
+msgid "Discard changes and reload template"
+msgstr "Scarta le modifiche e ricarica il modello"
+
+#: views/admin/settings.php:66
+msgid "Save and Preview"
+msgstr "Salva e guarda l’anteprima"
+
+#: views/admin/settings.php:7
+msgid "Please help me to improve this plugin."
+msgstr "Aiutami a migliorare questo plugin."
+
+#: views/admin/settings-survey.php:302
+msgid "Leave a review on WordPress.org"
+msgstr "Lasciaci una recensione su WordPress.org"
+
+#: views/admin/settings-survey.php:296
+msgid "Go to my website"
+msgstr "Vai al mio sito Web"
+
+#: views/admin/settings-survey.php:293
+msgid "If you want to buy some of my plugins you can use the following discount code to get 10% off."
+msgstr "Se vuoi acquistare alcuno dei miei plugin, puoi utilizzare questo codice per avere un sconto del 10%."
+
+#: views/admin/settings-survey.php:291
+msgid "This will help me to constantly improve the plugin."
+msgstr "Questo mi aiuterà a migliorare costantemente il plugin."
+
+#: views/admin/settings-survey.php:290
+msgid "Thank you for your feedback!"
+msgstr "Grazie per il tuo feedback!"
+
+#: views/admin/settings-survey.php:259
+msgid "Email for questions (optional):"
+msgstr "Email per domande (opzionale):"
+
+#: views/admin/settings-survey.php:254
+msgid "Website / Twitter profile:"
+msgstr "Sito Web / profilo Twitter:"
+
+#: views/admin/settings-survey.php:249
+msgid "Your name, company and job description:"
+msgstr "Nome, azienda e posto di lavoro:"
+
+#: views/admin/settings-survey.php:243
+msgid "I want to add some testimonials to my website.<br>Would you mind writing a few lines to inspire other customers to use the plugin?"
+msgstr "Voglio aggiungere alcune testimonianze al mio sito Web.<br>Ti dispiacerebbe scrivere alcune righe per ispirare altri clienti a utilizzare il plugin?"
+
+#: views/admin/settings-survey.php:233
+msgid "Other:"
+msgstr "Altro:"
+
+#: views/admin/settings-survey.php:229
+msgid "Conditions to turn the template on and off for some emails"
+msgstr "Condizioni per attivare o disattivare il modello per alcuni messaggi di email"
+
+#: views/admin/settings-survey.php:224
+msgid "Attachments"
+msgstr "Allegati"
+
+#: views/admin/settings-survey.php:219
+msgid "Social media icons"
+msgstr "Icone dei social media"
+
+#: views/admin/settings-survey.php:214
+msgid "Mobile email preview"
+msgstr "Anteprima della e-mail mobile"
+
+#: views/admin/settings-survey.php:209
+msgid "An editor to add custom CSS code"
+msgstr "Un editor per aggiungere codice CSS personalizzato"
+
+#: views/admin/settings-survey.php:204
+msgid "A set of ready to use templates"
+msgstr "Un set di modelli pronti per l'uso"
+
+#: views/admin/settings-survey.php:200
+msgid "What are the features you would like to see in future versions?"
+msgstr "Che caratteristiche ti piacerebbe vedere sviluppate in futuro?"
+
+#: views/admin/settings-survey.php:191
+msgid "Are there any plugins you want to see supported in future versions?"
+msgstr "Ci sono dei plugin che tu voglia vedere in future versioni?"
+
+#: views/admin/settings-survey.php:169
+msgid "Which of your plugins send emails with WP HTML Mail?"
+msgstr "Quale dei tuoi plugin inviano e-mails con WP Mail HTML?"
+
+#: views/admin/settings-survey.php:158
+msgid "Any details you want me to improve regarding usability?"
+msgstr "Qualche dettaglio deve migliorare per quanto riguarda l'usabilità?"
+
+#: views/admin/settings-survey.php:146
+msgid "What do you think might help you to be more satisfied with your final email template?"
+msgstr "Cosa credi ti potrebbe rendere più soddisfatto con il tuo modello di email finale?"
+
+#: views/admin/settings-survey.php:113 views/admin/settings-survey.php:267
+msgid "Submit"
+msgstr "Invia"
+
+#: views/admin/settings-survey.php:96
+msgid "You can suggest plugins to integrate in the next step."
+msgstr "Puoi suggerire dei plugin da integrare nel prossimo passo."
+
+#: views/admin/settings-survey.php:95
+msgid "How did the plugin integrate with other plugins and themes?"
+msgstr "Come si integra il plugin con altri plugin e temi?"
+
+#: views/admin/settings-survey.php:80
+msgid "Did you find everything you need?"
+msgstr "Hai trovato tutto ciò di cui avevi necessità?"
+
+#: views/admin/settings-survey.php:79
+msgid "What about the styling features?"
+msgstr "Cosa ne pensi delle caratteristiche di stile?"
+
+#: views/admin/settings-survey.php:64
+msgid "Is it clear and comprehensive?"
+msgstr "È chiaro e completo?"
+
+#: views/admin/settings-survey.php:63
+msgid "How would you rate the configuration usability?"
+msgstr "Come valutereste l'usabilità di configurazione?"
+
+#: views/admin/settings-survey.php:48
+msgid "Does ist look as expected?"
+msgstr "Il risultato è come ti aspettavi?"
+
+#: views/admin/settings-survey.php:47
+msgid "How satisfied are you with your final email template?"
+msgstr "Quanto sei soddisfatto con il tuo modello di email finale?"
+
+#: views/admin/settings-survey.php:27
+msgid "Your overall impression."
+msgstr "La tua impressione generale."
+
+#: views/admin/settings-survey.php:26 views/admin/settings.php:8
+msgid "How do you like WP HTML Mail so far?"
+msgstr "Ti piace WP HTML Mail finora?"
+
+#: views/admin/settings-survey.php:2
+msgid "Help me improve WP HTML Mail"
+msgstr "Aiutami a migliorare WP HTML Mail"
+
+#: views/admin/settings-plugins.php:2
+msgid "Use template for mails sent by your installed plugins"
+msgstr "Utilizza il modello per le mail inviate dai plugin installati"
+
+#: views/admin/settings-header.php:70
+msgid "Font"
+msgstr "Tipo di carattere"
+
+#: views/admin/settings-header.php:62
+msgid "Header text"
+msgstr "Testo dell'intestazione"
+
+#: views/admin/settings-header.php:52
+msgid "left"
+msgstr "sinistra"
+
+#: views/admin/settings-header.php:45
+msgid "bottom"
+msgstr "inferiore"
+
+#: views/admin/settings-header.php:38
+msgid "right"
+msgstr "destra"
+
+#: views/admin/settings-header.php:31
+msgid "top"
+msgstr "superiore"
+
+#: views/admin/settings-header.php:28
+msgid "Padding"
+msgstr "Padding"
+
+#: views/admin/settings-header.php:23
+msgid "Add your logo or image header (optional). max 600px wide"
+msgstr "Aggiungi il tuo logo o immagine nell'intestazione (opzionale). max 600px ampio"
+
+#: views/admin/settings-header.php:19
+msgid "Select image"
+msgstr "Seleziona immagine"
+
+#: views/admin/settings-header.php:14
+msgid "Header image"
+msgstr "Immagine dell'intestazione"
+
+#: views/admin/settings-general.php:19
+msgid "Email sender address"
+msgstr "E-mail del mittente"
+
+#: views/admin/settings-general.php:13
+msgid "Email sender name"
+msgstr "Nome del mittente"
+
+#: views/admin/settings-footer.php:24
+msgid "Show \"powered by\" link in email footer"
+msgstr "Visualizza il link \"powered by\" al piè di pagina della e-mail"
+
+#: views/admin/settings-content.php:119
+msgid "Link styling"
+msgstr "Styling di collegamento"
+
+#: views/admin/settings-content.php:84
+msgid "Content Font"
+msgstr "Tipo di carattere del contenuto"
+
+#: views/admin/settings-content.php:49
+msgid "Subsubheadline Font"
+msgstr "Tipo di carattere del sottotitolo"
+
+#: views/admin/settings-content.php:14
+msgid "Headline Font"
+msgstr "Tipo di carattere del titolo"
+
+#: views/admin/settings-content.php:7 views/admin/settings-footer.php:7
+#: views/admin/settings-general.php:7 views/admin/settings-header.php:7
+msgid "Background color"
+msgstr "Colore di sfondo"
+
+#: views/admin/settings-advanced.php:31
+msgid "Your template has been created."
+msgstr "Il tuo modello è stato creato."
+
+#: views/admin/settings-advanced.php:29
+msgid "Template created"
+msgstr "Modello creato"
+
+#: views/admin/settings-advanced.php:27
+msgid "Customize your mail template as far as you can. Then click this button to export the template to your theme directory for further modifications.<br>The template will be created in <strong>wp-content/YOUR-THEME/wp-html-mail/template.html</strong>"
+msgstr "Personalizza il modello di email per quanto è possibile. Poi fai clic su questo pulsante per esportare il modello nella directory dei temi per ulteriori modifiche.<br>Il modello verrà creato in <strong>wp-content/YOUR-THEME/wp-html-mail/template.html</strong>"
+
+#: views/admin/settings-advanced.php:24
+msgid "WARNING: Your theme directory is not writable by the server. Please change the permission to allow us to create the mail template."
+msgstr "ATTENZIONE: la directory dei temi non è scrivibile dal server. Modifica l'autorizzazione per permetterci di creare il modello di email."
+
+#: views/admin/settings-advanced.php:21
+msgid "You already have a custom template. If you create a new one the existing template will be backed up."
+msgstr "Hai già un modello personalizzato. Se ne crei uno nuovo, verrà eseguito un backup del modello esistente."
+
+#: views/admin/settings-advanced.php:19
+msgid "create template file in my theme folder"
+msgstr "crea il file del modello nella mia cartella di tema"
+
+#: views/admin/settings-advanced.php:16
+msgid "Create custom template"
+msgstr "Crea un modello personalizzato"
+
+#: views/admin/settings-advanced.php:2
+msgid "Advanced features"
+msgstr "Caratteristiche avanzate"
+
+#: includes/class-mailbuilder.php:264
+msgid "Add Content Element"
+msgstr "Aggiungi un elemento di contenuto"
+
+#: includes/class-mailbuilder.php:224
+msgid "Cancel"
+msgstr "Annulla"
+
+#: includes/class-mailbuilder.php:220
+msgid "Apply"
+msgstr "Applica"
+
+#: includes/class-mailbuilder.php:94
+msgid "Email Content Builder"
+msgstr "Creatore del contenuto dell'email"
+
+#: includes/class-mailbuilder.php:92
+msgid "Email Subject"
+msgstr "Oggetto Email"
+
+#: includes/class-mailbuilder.php:90
+msgid "Message"
+msgstr "Messaggio"
+
+#: includes/class-mailbuilder.php:56
+msgid "Custom Emails"
+msgstr "Email Personalizzate"
+
+#: includes/class-mailbuilder.php:55
+msgid "Parent Custom Email:"
+msgstr "Email personalizzata originale:"
+
+#: includes/class-mailbuilder.php:54
+msgid "No Custom Emails found in Trash"
+msgstr "Nessuna email personalizzata è stata trovata nel cestino"
+
+#: includes/class-mailbuilder.php:53
+msgid "No Custom Emails found"
+msgstr "Nessuna Email Personalizzata trovata"
+
+#: includes/class-mailbuilder.php:52
+msgid "Search Custom Emails"
+msgstr "Cerca Email Personalizzate"
+
+#: includes/class-mailbuilder.php:51
+msgid "View Custom Email"
+msgstr "Mostra Email Personalizzata"
+
+#: includes/class-mailbuilder.php:50
+msgid "New Custom Email"
+msgstr "Nuova Email Personalizzata"
+
+#: includes/class-mailbuilder.php:49
+msgid "Edit Custom Email"
+msgstr "Modifica Email Personalizzata"
+
+#: includes/class-mailbuilder.php:47 includes/class-mailbuilder.php:48
+msgid "Add New Custom Email"
+msgstr "Aggiungi nuove email personalizzate"
+
+#: includes/class-mailbuilder.php:46
+msgid "custom email"
+msgstr "email personalizzata"
+
+#: includes/class-mailbuilder.php:45
+msgid "custom emails"
+msgstr "email personalizzate"
+
+#: includes/class-haet-sender-plugin-wp-e-commerce.php:13
+msgid "The administrator has unlocked your file"
+msgstr "L'amministratore ha sbloccato il tuo file"
+
+#: includes/class-haet-sender-plugin-wp-e-commerce.php:11
+msgid "Order Pending: Payment Required"
+msgstr "Ordine in attesa: è necessario il pagamento"
+
+#: includes/class-haet-sender-plugin-wp-e-commerce.php:10
+msgid "Purchase Receipt"
+msgstr "Ricevuta d'acquisto"
+
+#: includes/class-haet-sender-plugin-wp-e-commerce.php:9
+msgid "Transaction Report"
+msgstr "Risultati transazione"
+
+#: includes/class-haet-sender-plugin-ninja-forms.php:42
+msgid "No"
+msgstr "No"
+
+#: includes/class-haet-sender-plugin-ninja-forms.php:41
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/class-haet-mail.php:208
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: includes/class-haet-mail.php:207
+msgid "Plugins"
+msgstr "Plugin"
+
+#: includes/class-haet-mail.php:206 views/admin/settings-footer.php:2
+#: views/admin/settings-footer.php:13
+msgid "Footer"
+msgstr "Piè di pagina"
+
+#: includes/class-haet-mail.php:199 views/admin/settings-content.php:2
+msgid "Content"
+msgstr "Contenuto"
+
+#: includes/class-haet-mail.php:198 views/admin/settings-header.php:2
+msgid "Header"
+msgstr "Intestazione"
+
+#: includes/class-haet-mail.php:197 views/admin/settings-general.php:2
+msgid "General"
+msgstr "Generale"
+
+#: includes/class-haet-mail.php:152
+msgid "Settings Updated."
+msgstr "Impostazioni Aggiornate."
+
+#: includes/class-haet-mail.php:127
+msgid "Email template"
+msgstr "Modello di email"
+
+#: includes/class-haet-mail.php:127
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/class-contenttype-twocol.php:47
+msgid "Two Columns"
+msgstr "Due colonne"
+
+#: includes/class-contenttype-text.php:47
+msgid "Text"
+msgstr "Testo"

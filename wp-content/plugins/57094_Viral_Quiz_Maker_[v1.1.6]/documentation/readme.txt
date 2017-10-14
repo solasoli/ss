@@ -1,0 +1,1 @@
+Please go to the http://onionbuzz.com/wordpress/docs/ for online documentation

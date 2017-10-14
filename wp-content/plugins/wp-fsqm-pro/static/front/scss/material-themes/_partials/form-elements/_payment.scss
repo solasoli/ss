@@ -1,0 +1,115 @@
+// ==========================================================================
+// Payment Styling
+// ==========================================================================
+$supported-cards: amex, cirrus, dinersclub, discover, jcb, maestro, mastercard, visa;
+.#{$selector} {
+	.ipt_uif_card {
+		transform: scale( 0.6, 0.6 );
+		@media screen and ( min-width: $screen-lg-min ) {
+			transform: scale( 1, 1 );
+		}
+	}
+	.ipt_fsqm_container_checkout {
+		padding: 0;
+		margin-bottom: 0;
+		.ipt_uif_column {
+			padding: 0;
+		}
+		.eform-checkout-gateways {
+			margin-bottom: 0;
+		}
+	}
+
+	.ipt_uif_card_holder {
+		max-width: 400px;
+		.ipt_uif_column {
+			margin-bottom: 0;
+		}
+
+		.eform-cc-cardnumber {
+			width: 54%;
+			i.prefix {
+				// Hide the icon
+				&::before {
+					display: none;
+				}
+				// Show the SVG
+				background-image: url( "#{$img-path}cards/generic.svg" );
+				height: 1.5em;
+				background-size: 32px;
+				background-position: left center;
+				background-repeat: no-repeat;
+			}
+
+			input.ipt_uif_cc_number {
+				width: calc(100% - 38px);
+				margin-left: 0;
+				padding-left: 38px;
+				@each $card in $supported-cards {
+					&.#{$card} ~ i.prefix {
+						background-image: url( "#{$img-path}cards/#{$card}.svg" );
+					}
+				}
+			}
+			.input-field.has-icon ~ .formError {
+				left: 0 !important;
+			}
+			.side_margin {
+				padding-right: 0;
+			}
+		}
+		.eform-cc-expiry {
+			width: 23%;
+			.side_margin {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		.eform-cc-cvc {
+			width: 23%;
+			.side_margin {
+				padding-left: 0;
+			}
+		}
+	}
+
+	// == Stripe
+	.eform-stripe-checkout {
+		max-width: 400px;
+		.ipt_uif_column {
+			margin-bottom: 0;
+		}
+
+		.eform-stripe-elements {
+			max-width: 400px;
+			width: 100%;
+			height: 3em;
+			padding: 8px 0;
+			border: none;
+			border-bottom: $input-border;
+			transition: $input-transition;
+
+			~ .formError {
+				margin-top: -1px !important;
+				max-width: 400px;
+			}
+
+			&.StripeElement--focus {
+				border-bottom: 1px solid $input-focus-color;
+				box-shadow: 0 1px 0 0 $input-focus-color;
+			}
+
+			&.StripeElement--invalid {
+				border-bottom: $input-invalid-border;
+				box-shadow: 0 1px 0 0 $input-error-color;
+			}
+
+			&.StripeElement--complete {
+				border-bottom: 1px solid $input-success-color;
+				box-shadow: 0 1px 0 0 $input-success-color;
+			}
+		}
+	}
+}
+
+

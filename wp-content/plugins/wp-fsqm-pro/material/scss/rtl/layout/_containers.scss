@@ -1,0 +1,41 @@
+// ==========================================================================
+// Container Floats and Styles
+// ==========================================================================
+body .#{$selector} {
+	.ipt_uif_column {
+		float: right;
+	}
+	.ipt_uif_question {
+		.ipt_uif_question_label,
+		.ipt_uif_question_content {
+			float: right;
+			text-align: right;
+			.ipt_uif_label_column {
+				float: right;
+				&.column_random {
+					float: none;
+				}
+			}
+		}
+	}
+
+	.ipt_uif_container {
+		&.ipt_uif_collapsible > .ipt_uif_container_head h3 a .collapsible_state {
+			float: left;
+		}
+		h3 a .collapsible_state {
+			float: left;
+		}
+	}
+
+	.ipt_fsqm_preview {
+		direction: rtl;
+		text-align: right;
+
+		tr, td, th {
+			text-align: right;
+		}
+	}
+}
+
+

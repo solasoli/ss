@@ -1,0 +1,88 @@
+.#{$selector} {
+	.ipt-eform-material-button-container.ipt_fsqm_form_button_container {
+		margin-bottom: 0;
+		text-align: center;
+		background-color: $preset-button-container;
+		clear: both;
+
+		.eform-button-container-inner {
+			display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+			display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+			display: -ms-flexbox; /* TWEENER - IE 10 */
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-align: center;
+			-webkit-flex-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+			flex-flow: row wrap;
+			justify-content: space-around;
+
+			.ui-button {
+				// display: flex;
+				width: auto;
+				text-align: center;
+				display: block;
+				padding: 1em 2em;
+			}
+
+			@media screen and ( min-width: $screen-sm-min ) {
+
+			}
+
+			@media screen and ( min-width: $screen-md-min ) {
+				flex-flow: row nowrap;
+
+				.ui-button {
+					width: 100%;
+
+					&.ipt_fsqm_form_button_reset {
+						max-width: 100px;
+					}
+				}
+			}
+		}
+
+		.ui-button {
+			margin: 0;
+			background: $preset-button-container;
+			color: $preset-button-container-color;
+			box-shadow: none;
+			font-size: 1.142857142857143em;
+			padding: 1em 2em;
+			&.small,
+			&.large {
+				font-size: 1.142857142857143em;
+			}
+			border-radius: 0;
+			&:active,
+			&:focus {
+				color: $preset-button-container-color;
+			}
+			&:hover {
+				background-color: $preset-button-container-button-hover;
+			}
+			&[disabled] {
+				opacity: 0.5;
+			}
+		}
+
+		&.eform-material-alternate-pb {
+			background-color: $primary-color;
+
+			.ui-button {
+				background-color: $primary-color;
+				color: $primary-color-text;
+
+				.waves-ripple {
+					background-color: fade-out( $primary-color-text, 0.4 );
+				}
+
+				&:hover {
+					background-color: $primary-color-dark;
+				}
+			}
+		}
+	}
+}

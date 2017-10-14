@@ -1,0 +1,370 @@
+// ==========================================================================
+// eForm Admin Form Builder Layout Area - Tabbed Drops
+// ==========================================================================
+#ipt-eform-builder-layout-wrap {
+	width: 50%;
+	@media screen and ( min-width: $screen-lg-min ) {
+		width: 57%;
+	}
+	float: right;
+	background-color: $preset-bg;
+	max-width: 810px;
+	position: relative;
+
+	@include material__box-shadow-subtle();
+
+	#ipt_fsqm_form_builder_layout {
+		// Tab Styles
+		&.ui-tabs {
+			background-color: $preset-bg;
+			box-shadow: none;
+
+			// Header Nav
+			.ui-tabs-nav {
+				background-color: transparent;
+				box-shadow: none;
+				border-bottom: 2px solid $builder-layout-nav-border;
+				border-radius: 0;
+				padding: 0;
+				li {
+					float: left;
+					width: 82px;
+					padding: 0;
+					height: 44px;
+					background-color: $builder-adder-background;
+					border: 1px solid $builder-layout-nav-border;
+					position: relative;
+					top: -1px;
+					will-change: background-color, border-color;
+					transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+					margin-left: -1px;
+					margin-bottom: -1px;
+					border-bottom: 0 none;
+					opacity: 1;
+
+					&.grayed {
+						background-color: $builder-droppable-grayed-bg;
+						color: $builder-droppable-grayed-color;
+						a {
+							color: $builder-droppable-grayed-color;
+						}
+						&::before {
+							font-family: 'ipt-icomoon' !important;
+							speak: none;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							text-transform: none;
+							line-height: 1;
+
+							/* Better Font Rendering =========== */
+							-webkit-font-smoothing: antialiased;
+							-moz-osx-font-smoothing: grayscale;
+							content: "\e0e1";
+							position: absolute;
+							right: 2px;
+							bottom: 2px;
+							font-size: 16px;
+							line-height: 18px;
+						}
+					}
+
+					a {
+						color: $secondary-text-color;
+						text-decoration: none;
+						line-height: 40px;
+						text-align: center;
+						padding: 0;
+						text-shadow: none;
+
+						span {
+							font-size: 18px;
+							float: right;
+							line-height: 42px;
+							margin-right: 5px;
+							display: block;
+							cursor: move;
+
+							&.ipt_uif_builder_tab_sort {
+								transform: rotate(45deg);
+								line-height: 48px;
+							}
+
+							&.ipt_uif_builder_tab_droppable {
+								cursor: inherit;
+								float: left;
+								margin-left: 10px;
+								margin-right: 0;
+								font-size: 32px;
+								@include material__smooth-tran( 200ms );
+
+								&.ipt_uif_builder_tab_droppable_highlight {
+									color: $builder-layout-nav-sortable-hl;
+								}
+								&.ipt_uif_builder_tab_droppable_over {
+									color: $builder-layout-nav-sortable-drop;
+								}
+							}
+						}
+
+						&::after {
+							display: block;
+							content: "";
+							clear: both;
+						}
+					}
+
+					&.ui-tabs-active {
+						background-color: $builder-layout-nav-border;
+						a {
+							color: $primary-text-color;
+						}
+					}
+
+					&:hover {
+						background-color: $builder-adder-background-hover;
+						border-color: $builder-adder-background-hover;
+						a {
+							color: $secondary-text-color;
+						}
+					}
+
+					&.ipt_uif_builder_tabs_sortable_highlight {
+						background-color: $builder-layout-nav-sortable-hl;
+					}
+
+				}
+
+				&::after {
+					content: "";
+					display: block;
+					clear: both;
+				}
+			}
+
+			// Panels
+			.ui-tabs-panel {
+				background-color: $preset-bg;
+				border-radius: 0;
+				padding: 2px;
+				min-height: 200px;
+				box-shadow: none;
+
+				&.grayed {
+					background-color: $builder-droppable-grayed-bg;
+					&::before {
+						font-family: 'ipt-icomoon' !important;
+						speak: none;
+						font-style: normal;
+						font-weight: normal;
+						font-variant: normal;
+						text-transform: none;
+						line-height: 1;
+
+						/* Better Font Rendering =========== */
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+						content: "\e0e1";
+						position: absolute;
+						right: 6px;
+						bottom: 6px;
+						font-size: 16px;
+						line-height: 18px;
+						color: $builder-droppable-grayed-color;
+					}
+				}
+			}
+		}
+
+		// Empty drop area
+		.ipt_uif_builder_empty,
+		.ipt_uif_builder_drop_here_empty {
+			height: 200px;
+			&::before {
+				content: attr(data-empty);
+				font-size: 20px;
+				width: 100%;
+				height: calc( 100% + 36px );
+				display: flex;
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+				color: $primary-color;
+				font-weight: 300;
+			}
+		}
+
+		// Drop area
+		.ipt_uif_builder_drop_here {
+			min-height: 200px;
+			padding-bottom: 36px;
+			@include material__smooth-tran( 400ms, background-color );
+			will-change: background-color;
+			&.ipt_uif_builder_drop_here_inner {
+				background-color: $preset-bg;
+				padding: 1px 1px 36px;
+				display: none;
+				min-height: 0;
+				margin: 0 0 3px;
+			}
+			&.ipt_uif_highlight {
+				background-color: $builder-layout-dh-sortable-hl;
+				&.ipt_uif_droppable_hover {
+					background-color: $preset-bg;
+					background-image: linear-gradient(45deg, $builder-layout-dh-sortable-drop 25%, transparent 25%, transparent 75%, $builder-layout-dh-sortable-drop 75%, $builder-layout-dh-sortable-drop),
+					linear-gradient(45deg, $builder-layout-dh-sortable-drop 25%, transparent 25%, transparent 75%, $builder-layout-dh-sortable-drop 75%, $builder-layout-dh-sortable-drop);
+					background-size: 32px 32px;
+					background-position:0 0, 16px 16px
+				}
+			}
+			&::after {
+				display: block;
+				content: "";
+				clear: both;
+			}
+			// Inner Empty Containers
+			.ipt_uif_builder_drop_here_empty {
+				height: 68px;
+				&::before {
+					display: none;
+				}
+			}
+			// Column Sizings
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_half,
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_third,
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_two_third,
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_forth,
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_three_forth {
+				clear: right;
+				float: left;
+				width: 50%;
+				.ipt_uif_builder_drop_here_empty {
+					&::before {
+						content: "";
+					}
+				}
+			}
+			.ipt_uif_droppable_element.ipt_uif_icon_col_third {
+				width: 33.33%;
+			}
+			.ipt_uif_droppable_element.ipt_uif_icon_col_two_third {
+				width: 66.66%;
+			}
+			.ipt_uif_droppable_element.ipt_uif_icon_col_forth {
+				width: 25%;
+			}
+			.ipt_uif_droppable_element.ipt_uif_icon_col_three_forth {
+				width: 75%;
+			}
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_third [class*="ipt_uif_icon_col_"],
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_forth [class*="ipt_uif_icon_col_"],
+			> .ipt_uif_droppable_element.ipt_uif_icon_col_half [class*="ipt_uif_icon_col_"] {
+				width: 100%;
+			}
+			.ipt_uif_droppable_element.ipt_uif_icon_col_forth h3 {
+				font-size: 10px;
+			}
+		}
+	}
+
+	// Tab Toolbar
+	.ipt_uif_builder_layout_settings_toolbar {
+		background-color: $builder-adder-background;
+		text-align: right;
+		@include material__box-shadow-bottom();
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			&::after {
+				display: block;
+				content: "";
+				clear: both;
+			}
+			li {
+				list-style: none;
+				display: block;
+				float: right;
+				margin: 0;
+				padding: 0;
+				height: 44px;
+				will-change: background-color;
+				@include material__smooth-tran( 400ms, background-color );
+				&:hover {
+					background-color: $builder-adder-background-hover;
+				}
+				.ipt_uif_msg {
+					display: inline-block;
+					float: none;
+					height: auto;
+					width: auto;
+					line-height: inherit;
+					margin: 0;
+					padding: 0;
+				}
+				a {
+					padding: 0 14px;
+					color: $secondary-text-color;
+					font-size: 16px;
+					text-decoration: none;
+					line-height: 44px;
+					display: block;
+				}
+			}
+		}
+	}
+
+	// Deleter
+	.ipt_uif_builder_deleter {
+		position: absolute;
+		height: 80px;
+		width: 100%;
+		padding-top: 16px;
+
+		.ipt_uif_builder_deleter_wrap {
+			animation: ipt-eform-deleter 1000ms linear infinite;
+			width: 48px;
+			background-color: $error-color;
+			background-image: linear-gradient( 45deg, fade-out( $preset-bg, 0.8 ), transparent );
+			border-radius: 100%;
+			border: 1px solid $preset-bg;
+			margin: 0 auto;
+			height: 48px;
+			line-height: 46px;
+			text-align: center;
+			color: $primary-color-text;
+			font-size: 16px;
+			position: relative;
+			overflow: hidden;
+			@include material__box-shadow();
+			@include material__smooth-tran( 400ms, transform );
+
+			span {
+				position: relative;
+				z-index: 1;
+			}
+		}
+
+		&.active {
+			.ipt_uif_builder_deleter_wrap {
+				animation: none;
+				transform: scale(1.5, 1.5);
+			}
+		}
+	}
+}
+
+@keyframes ipt-eform-deleter {
+	0% {
+		transform: scale( 1, 1 );
+	}
+	50% {
+		transform: scale( 1.2, 1.2 );
+	}
+	100% {
+		transform: scale( 1, 1 );
+	}
+}
+
+
+

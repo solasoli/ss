@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Content-Encoding":"Content-Encoding: gzip","Vary":"Vary: Accept-Encoding, Cookie","Last-Modified":"Last-Modified: Fri, 13 Oct 2017 16:06:06 GMT","Content-Type":"Content-Type: text\/html; charset=\"UTF-8\""},"uri":"berjutakejutan.sumberselera.com\/","blog_id":1,"post":29,"key":"berjutakejutan.sumberselera.com80\/gzip"}

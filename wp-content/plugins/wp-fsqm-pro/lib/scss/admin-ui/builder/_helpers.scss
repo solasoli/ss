@@ -1,0 +1,25 @@
+// ==========================================================================
+// eForm Admin Form Builder Helper Styles
+// ==========================================================================
+.#{$selector} {
+	/* Hidden Elements */
+	.ipt_uif_builder_settings,
+	.ipt_uif_droppable_elements_wrap {
+		display: none;
+	}
+	/* Settings and WP Editor */
+	.ipt_uif_builder_settings_box_parent,
+	.ipt_uif_builder_tab_content {
+		display: none;
+	}
+	.ipt_uif_builder_settings textarea.wp_editor {
+		display: none;
+	}
+
+	/* Empty Droppable Containers */
+	.ipt_uif_builder_empty + .ipt_uif_builder_layout_settings_toolbar {
+		display: none;
+	}
+}
+
+

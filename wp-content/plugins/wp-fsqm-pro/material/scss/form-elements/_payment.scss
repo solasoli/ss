@@ -1,0 +1,19 @@
+// ==========================================================================
+// Payment Styling
+// ==========================================================================
+.#{$selector} {
+	.ipt_uif_card {
+		transform: scale( 0.6, 0.6 );
+		@media screen and ( min-width: $screen-lg-min ) {
+			transform: scale( 1, 1 );
+		}
+	}
+	.ipt_fsqm_container_checkout {
+		padding: 0;
+		.ipt_uif_column {
+			padding: 0;
+		}
+	}
+}
+
+

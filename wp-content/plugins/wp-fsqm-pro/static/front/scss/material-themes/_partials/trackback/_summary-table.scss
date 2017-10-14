@@ -1,0 +1,72 @@
+// ==========================================================================
+// Summary Table
+// ==========================================================================
+.#{$selector} {
+	.ipt_fsqm_preview {
+		border-collapse: collapse;
+		background-color: #fff;
+		tbody,
+		thead,
+		tfoot,
+		tr,
+		td,
+		th {
+			border-radius: 0;
+			border: 1px solid $table-border-color;
+			color: #757575;
+		}
+		thead,
+		th {
+			color: #212121;
+			font-weight: normal;
+		}
+
+		thead,
+		tfoot,
+		.head {
+			border-color: $primary-color;
+			background-color: $primary-color;
+			color: $primary-text-color;
+			td, th {
+				border-color: $primary-color;
+				background-color: $primary-color;
+				color: $primary-color-text;
+			}
+		}
+
+		table {
+			height: 100%;
+			margin: -1px 0px -1px -1px;
+			width: calc( 100% + 2px );
+		}
+
+		img {
+			max-width: none;
+		}
+		.icons {
+			text-align: center;
+			img {
+				width: 16px;
+				height: auto;
+			}
+		}
+	}
+
+	@media print {
+		-webkit-print-color-adjust: exact;
+		thead,
+		tfoot,
+		.head {
+			border-color: $primary-color !important;
+			background-color: $primary-color !important;
+			color: $primary-text-color !important;
+			td, th {
+				border-color: $primary-color !important;
+				background-color: $primary-color !important;
+				color: $primary-color-text !important;
+			}
+		}
+	}
+}
+
+
